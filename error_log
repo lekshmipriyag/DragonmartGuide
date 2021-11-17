@@ -1,0 +1,9 @@
+[28-Feb-2018 17:16:25 Asia/Dubai] PHP Notice:  Undefined index: page in /home/dragonmartguide/public_html/search.php on line 37
+[28-Feb-2018 17:16:25 Asia/Dubai] PHP Notice:  Undefined variable: counter in /home/dragonmartguide/public_html/pagination.php on line 8
+[28-Feb-2018 17:16:25 Asia/Dubai] PHP Warning:  include(../Connections/dragonmartguide.php): failed to open stream: No such file or directory in /home/dragonmartguide/public_html/Connections/search-datas.php on line 10
+[28-Feb-2018 17:16:25 Asia/Dubai] PHP Warning:  include(../Connections/dragonmartguide.php): failed to open stream: No such file or directory in /home/dragonmartguide/public_html/Connections/search-datas.php on line 10
+[28-Feb-2018 17:16:25 Asia/Dubai] PHP Warning:  include(): Failed opening '../Connections/dragonmartguide.php' for inclusion (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/dragonmartguide/public_html/Connections/search-datas.php on line 10
+[28-Feb-2018 17:16:28 Asia/Dubai] PHP Notice:  Undefined variable: counter in /home/dragonmartguide/public_html/pagination.php on line 8
+[28-Feb-2018 17:16:28 Asia/Dubai] PHP Warning:  include(../Connections/dragonmartguide.php): failed to open stream: No such file or directory in /home/dragonmartguide/public_html/Connections/search-datas.php on line 10
+[28-Feb-2018 17:16:28 Asia/Dubai] PHP Warning:  include(../Connections/dragonmartguide.php): failed to open stream: No such file or directory in /home/dragonmartguide/public_html/Connections/search-datas.php on line 10
+[28-Feb-2018 17:16:28 Asia/Dubai] PHP Warning:  include(): Failed opening '../Connections/dragonmartguide.php' for inclusion (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/dragonmartguide/public_html/Connections/search-datas.php on line 10

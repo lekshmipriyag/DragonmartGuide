@@ -1,0 +1,81 @@
+.swatchinput {
+  display:inline-block;
+  padding-right:3px;
+  padding-bottom:3px;
+}
+
+span.belowtext {
+   display: table-cell;
+   vertical-align: bottom;
+   padding-bottom: 16px;
+   font-family: sans-serif;
+   font-weight: bold;
+   width:auto;
+   left: 50%;
+}
+
+
+
+.selectedswatch {
+    opacity: .9;
+}
+
+label.selectedswatch.nbtwssquare {
+    cursor:pointer;
+    background-size:contain;
+    background-repeat:no-repeat;
+    display:inline-block;
+    -webkit-transition: all 100ms ease-in;
+       -moz-transition: all 100ms ease-in;
+            transition: all 100ms ease-in;
+    border: solid 2px white;
+	outline: solid 2px black;
+    line-height: 1.0000;
+}
+
+label.selectedswatch.nbtwsaround {
+    cursor:pointer;
+    background-size:contain;
+    background-repeat:no-repeat;
+	display:inline-block;
+    -webkit-transition: all 100ms ease-in;
+       -moz-transition: all 100ms ease-in;
+            transition: all 100ms ease-in;
+	border: solid 2px #ccc;
+    line-height: 1.0000;
+}
+
+.nbtwsswatchlabel{
+    cursor:pointer;
+    background-size:contain;
+    background-repeat:no-repeat;
+    display:inline-block;
+    -webkit-transition: all 100ms ease-in;
+       -moz-transition: all 100ms ease-in;
+            transition: all 100ms ease-in;
+    line-height: 1.0000;
+}
+
+.nbtwsaround {
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+	outline: solid 0 #9C9999;
+}
+
+.swatchtitlelabel {
+	font-weight: 700;
+    color:black;
+    text-transform: capitalize;
+}
+
+label.nbtwsdisabled {
+	pointer-events: none;
+    cursor: default;
+	opacity: .2;
+}
+
+
+.attribute-swatch {
+    display: inline-block;
+}

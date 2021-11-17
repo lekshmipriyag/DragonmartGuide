@@ -1,0 +1,32 @@
+.nbtws_header {
+    font-family: Sans-serif;
+    font-size: 16px;
+}
+
+.nbtws_formfield {
+    font-family: Sans-serif;
+    font-size: 14px;
+}
+
+.nbtws-upper-div {
+    margin-bottom:20px;
+    margin-top:20px;
+}
+
+.nbtws-header-table {
+    margin-bottom:20px;
+}
+.nbtws-small-text {
+    font-size:10px;
+}
+
+.nbtws_help_tip {
+    padding-top: 10px;
+}
+
+.nbtws_ajax_update {
+    margin-top:20px;
+}
+
+
+

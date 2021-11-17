@@ -1,0 +1,227 @@
+
+---Downloaded files---
+The import files for: Demo Printcards were successfully downloaded!
+Initial max execution time = 0
+Files info:
+Site URL = http://localhost/printshop-tf-test3
+Data file = E:\WWW\printshop-tf-test3/wp-content/themes/printshop/inc/import-files/demo-content.xml
+Widget file = E:\WWW\printshop-tf-test3/wp-content/themes/printshop/inc/import-files/printcards/widgets.wie
+Customizer file = not defined!
+Redux files:
+printshop_options -> E:\WWW\printshop-tf-test3/wp-content/themes/printshop/inc/import-files/printcards/theme-options.json 
+
+
+------
+New AJAX call!
+[WARNING] Failed to import pa_color Black
+[WARNING] Failed to import pa_color Blue
+[WARNING] Failed to import pa_color Green
+[WARNING] Failed to import pa_size L
+[WARNING] Failed to import pa_size M
+[WARNING] Failed to import pa_color Red
+[WARNING] Failed to import pa_size S
+[WARNING] Failed to import pa_size XL
+[WARNING] Failed to import pa_size XS
+
+
+------
+New AJAX call!
+[WARNING] Failed to import pa_color Black
+[WARNING] Failed to import pa_color Blue
+[WARNING] Failed to import pa_color Green
+[WARNING] Failed to import pa_size L
+[WARNING] Failed to import pa_size M
+[WARNING] Failed to import pa_color Red
+[WARNING] Failed to import pa_size S
+[WARNING] Failed to import pa_size XL
+[WARNING] Failed to import pa_size XS
+
+
+------
+New AJAX call!
+[WARNING] Failed to import pa_color Black
+[WARNING] Failed to import pa_color Blue
+[WARNING] Failed to import pa_color Green
+[WARNING] Failed to import pa_size L
+[WARNING] Failed to import pa_size M
+[WARNING] Failed to import pa_color Red
+[WARNING] Failed to import pa_size S
+[WARNING] Failed to import pa_size XL
+[WARNING] Failed to import pa_size XS
+
+
+------
+New AJAX call!
+[WARNING] Failed to import pa_color Black
+[WARNING] Failed to import pa_color Blue
+[WARNING] Failed to import pa_color Green
+[WARNING] Failed to import pa_size L
+[WARNING] Failed to import pa_size M
+[WARNING] Failed to import pa_color Red
+[WARNING] Failed to import pa_size S
+[WARNING] Failed to import pa_size XL
+[WARNING] Failed to import pa_size XS
+
+
+------
+New AJAX call!
+[WARNING] Failed to import pa_color Black
+[WARNING] Failed to import pa_color Blue
+[WARNING] Failed to import pa_color Green
+[WARNING] Failed to import pa_size L
+[WARNING] Failed to import pa_size M
+[WARNING] Failed to import pa_color Red
+[WARNING] Failed to import pa_size S
+[WARNING] Failed to import pa_size XL
+[WARNING] Failed to import pa_size XS
+
+
+------
+New AJAX call!
+[WARNING] Failed to import pa_color Black
+[WARNING] Failed to import pa_color Blue
+[WARNING] Failed to import pa_color Green
+[WARNING] Failed to import pa_size L
+[WARNING] Failed to import pa_size M
+[WARNING] Failed to import pa_color Red
+[WARNING] Failed to import pa_size S
+[WARNING] Failed to import pa_size XL
+[WARNING] Failed to import pa_size XS
+
+
+------
+New AJAX call!
+[WARNING] Failed to import pa_color Black
+[WARNING] Failed to import pa_color Blue
+[WARNING] Failed to import pa_color Green
+[WARNING] Failed to import pa_size L
+[WARNING] Failed to import pa_size M
+[WARNING] Failed to import pa_color Red
+[WARNING] Failed to import pa_size S
+[WARNING] Failed to import pa_size XL
+[WARNING] Failed to import pa_size XS
+
+
+------
+New AJAX call!
+[WARNING] Failed to import pa_color Black
+[WARNING] Failed to import pa_color Blue
+[WARNING] Failed to import pa_color Green
+[WARNING] Failed to import pa_size L
+[WARNING] Failed to import pa_size M
+[WARNING] Failed to import pa_color Red
+[WARNING] Failed to import pa_size S
+[WARNING] Failed to import pa_size XL
+[WARNING] Failed to import pa_size XS
+
+
+------
+New AJAX call!
+[WARNING] Failed to import pa_color Black
+[WARNING] Failed to import pa_color Blue
+[WARNING] Failed to import pa_color Green
+[WARNING] Failed to import pa_size L
+[WARNING] Failed to import pa_size M
+[WARNING] Failed to import pa_color Red
+[WARNING] Failed to import pa_size S
+[WARNING] Failed to import pa_size XL
+[WARNING] Failed to import pa_size XS
+
+
+------
+New AJAX call!
+[WARNING] Failed to import pa_color Black
+[WARNING] Failed to import pa_color Blue
+[WARNING] Failed to import pa_color Green
+[WARNING] Failed to import pa_size L
+[WARNING] Failed to import pa_size M
+[WARNING] Failed to import pa_color Red
+[WARNING] Failed to import pa_size S
+[WARNING] Failed to import pa_size XL
+[WARNING] Failed to import pa_size XS
+
+
+------
+New AJAX call!
+[WARNING] Failed to import pa_color Black
+[WARNING] Failed to import pa_color Blue
+[WARNING] Failed to import pa_color Green
+[WARNING] Failed to import pa_size L
+[WARNING] Failed to import pa_size M
+[WARNING] Failed to import pa_color Red
+[WARNING] Failed to import pa_size S
+[WARNING] Failed to import pa_size XL
+[WARNING] Failed to import pa_size XS
+
+
+------
+New AJAX call!
+[WARNING] Failed to import pa_color Black
+[WARNING] Failed to import pa_color Blue
+[WARNING] Failed to import pa_color Green
+[WARNING] Failed to import pa_size L
+[WARNING] Failed to import pa_size M
+[WARNING] Failed to import pa_color Red
+[WARNING] Failed to import pa_size S
+[WARNING] Failed to import pa_size XL
+[WARNING] Failed to import pa_size XS
+
+
+------
+New AJAX call!
+[WARNING] Failed to import pa_color Black
+[WARNING] Failed to import pa_color Blue
+[WARNING] Failed to import pa_color Green
+[WARNING] Failed to import pa_size L
+[WARNING] Failed to import pa_size M
+[WARNING] Failed to import pa_color Red
+[WARNING] Failed to import pa_size S
+[WARNING] Failed to import pa_size XL
+[WARNING] Failed to import pa_size XS
+
+
+---Importing widgets---
+Blog Sidebar : 
+
+NBT Social Media - SOCIAL MEDIA - Imported
+Search - SEARCH THE BLOG - Imported
+Recent Post Thumbnail - RECENT POSTS - Imported
+Categories - CATEGORIES - Imported
+
+WooCommerce Sidebar : 
+
+Image Widget - No Title - Imported
+NBT Top Seller - best selling - Imported
+
+Footer 1 : 
+
+Image Widget - ABOUT US - Imported
+Text - No Title - Imported
+NBT Social Media - No Title - Imported
+
+Footer 2 : 
+
+Custom Menu - CORPORATE - Imported
+
+Footer 3 : 
+
+Custom Menu - Support - Imported
+
+Footer 4 : 
+
+Text - Other info - Imported
+Image Widget - No Title - Imported
+
+Mega Menu Widgets : 
+
+Image Widget - No Title - Imported
+NBT Service Boxes - About Print Card - Imported
+NBT Service Boxes - No Title - Imported
+
+
+
+---Importing Redux settings---
+Redux settings import for: printshop_options finished successfully!
+
+---pt-ocdi/after_import---
+<div align='left'><pre>no custom animations found, if slider uses custom animations, the provided export may be broken...</pre></div><div align='left'><pre>no dynamic styles found, if slider uses dynamic styles, the provided export may be broken...</pre></div>uploads/revslider/homecards/bg_video.png not found!<br>Slider processed

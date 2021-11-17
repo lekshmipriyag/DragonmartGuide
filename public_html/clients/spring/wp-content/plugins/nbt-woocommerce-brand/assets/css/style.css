@@ -1,0 +1,27 @@
+/* brand page */
+.nbt-woocommerce-brand-meta{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.nbt-brand-banner +.nbt-brand-thumb span{
+    position: absolute;
+    bottom: 5%;
+    background-color: rgba(16, 36, 35, 0.4);
+    color: rgba(16, 36, 35, 0.4);
+    padding: 5px 10px;
+}
+.nbt-woocommerce-brand-meta .nbt-brand-description{
+    margin-top: 10px;
+}
+
+/* product detail */
+.nbt-woocommerce-brands .nbt-woocommerce-brands-image span{
+    display:inline-block;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+.nbt-brand-description > p{
+    color: #707070;
+}

@@ -1,0 +1,2359 @@
+@import url(https://fonts.googleapis.com/css?family=PT+Sans:300|PT+Sans:400|PT+Sans:700);
+/************************************************\
+Very general Reset
+\************************************************/
+
+.wpnetbase,
+.wpnetbase * {
+  font:normal 13px/100% 'PT Sans', Verdana,Tahoma,sans-serif;
+  padding: auto;
+  margin: auto;
+  border: none;
+  border-radius: 0;
+  background: transparent;
+  line-height: 18px;
+}
+
+
+/************************************************\
+Generic selectors
+\************************************************/
+
+#wpnetbase ul,
+#wpnetbase ul li {
+  list-style-type: none;
+}
+
+#wpnetbase dd {
+  margin: 10px 10px 24px 0px;
+}
+#wpnetbase dt {
+  font-size: 14px;
+  color: rgb(199, 0, 0);
+}
+
+/************************************************\
+Generic classes
+\************************************************/
+
+#wpnetbase .floatLeft {
+  float: left;
+}
+
+#wpnetbase .floatRight {
+  float: right;
+}
+
+#wpnetbase .clearFix:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+
+#wpnetbase .disabled {
+  opacity: .5;
+  position: relative;
+}
+
+#wpnetbase .disabled::after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: ' ';
+}
+
+.wpnetbase b,
+.wpnetbase strong {
+  font-weight: 700;
+}
+
+.wpnetbase select {
+  background: #FFF;
+}
+
+.wpnetbase script {
+  display: none !important;
+}
+
+#wpnetbase .block {
+  display: block;
+}
+
+#wpnetbase .wpnetbaseText {
+  display: inline-block;
+}
+
+#wpnetbase .hidden {
+  display: none;
+}
+
+#wpnetbase .hiddend {
+  display: none;
+}
+
+.wpd-text-right {
+  text-align: right;
+}
+
+#wpnetbase a:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.wd_col_20,
+.wd_col_30,
+.wd_col_40,
+.wd_col_50,
+.wd_col_60,
+.wd_col_70,
+.wd_col_80,
+.wd_col_third {
+  width: 32%;
+  min-height: 1px;
+  margin: 0 !important;
+  padding: 1%;
+  display: inline-block;
+  box-sizing: border-box !important;
+}
+
+.wd_col_80 {
+  width: 69%;
+}
+
+.wd_col_70 {
+  width: 69%;
+}
+
+.wd_col_60 {
+  width: 59%;
+}
+
+.wd_col_50 {
+  width: 49%;
+}
+
+.wd_col_40 {
+  width: 39%;
+}
+
+.wd_col_30 {
+  width: 69%;
+}
+
+.wd_col_20 {
+  width: 19%;
+}
+
+
+/************************************************\
+    Columns
+\************************************************/
+
+.wpd-60-pc,
+.wpd-40-pc,
+.wpd-one-half,
+.wpd-one-half-last {
+  width: 50%;
+  min-height: 40px;
+  padding: 4% 4% 4% 0;
+  float: left;
+  box-sizing: border-box;
+}
+
+.wpd-60-pc {
+  width: 60%;
+}
+
+.wpd-40-pc {
+  width: 40%;
+}
+
+#wpnetbase .wpd-40-pc .sortablecontainer {
+  margin: 15px 0 0 0;
+  width: 100%;
+}
+
+.wpd-one-half-last:before,
+.wpd-one-half-last:after {
+  content: " "; /* 1 */
+  display: table; /* 2 */
+}
+
+.wpd-one-half-last:after {
+  clear: both;
+}
+
+
+.wpd-half,
+.wpd-half-last {
+  width: 50%;
+  min-height: 40px;
+  padding: 2%;
+  float: left;
+  box-sizing: border-box;
+}
+
+.wpd-half-last:before,
+.wpd-half-last:after {
+  content: " "; /* 1 */
+  display: table; /* 2 */
+}
+
+.wpd-half-last:after {
+  clear: both;
+}
+
+/************************************************\
+    ETC
+\************************************************/
+
+#wpnetbase div.triggerer {
+  display:none;
+}
+#wpnetbase legend {
+  font-size:1.22em;
+  color:#444;
+  font-weight: 700;
+  margin: 0;
+}
+#wpnetbase hr {
+  color:#eee;
+  background-color:#eee;
+  margin:10px 40px;
+  border:none;
+}
+#wpnetbase .wpnetbase-container {
+  overflow:hidden;
+}
+
+#wpnetbase input,
+#wpnetbase textarea,
+#wpnetbase select {
+  border: 1px solid #E5E5E5;
+  box-shadow: none;
+  height: auto;
+  margin: 0 5px;
+  outline: 0 none;
+  padding: 3px;
+  width: 200px;
+}
+
+#wpnetbase select {
+  width: auto;
+  max-width: 200px;
+}
+
+#wpnetbase input[type=checkbox],
+#wpnetbase input[type=radio] {
+  width: auto;
+  height: 16px;
+}
+
+#wpnetbase .wpnetbaseTextSmall input,
+#wpnetbase input.threedigit {
+  width: 45px;
+}
+#wpnetbase select {
+  padding:2px;
+}
+#wpnetbase input[type=radio] {
+  width: 5px;
+  height: 16px;
+}
+
+#preview {
+  padding:10px;
+  position:fixed;
+  z-index:1000;
+  background:#FFF;
+  bottom:-365px;
+  right:20px !important;
+  border:1px solid #ccc;
+  width:500px;
+  height:400px;
+  box-shadow: 0 0 16px -12px #000000;
+  -webkit-box-shadow: 0 0 16px -8px #000000;
+}
+
+#preview .data {
+  margin: 15px 0px;
+}
+
+.wpnetbase-btn-settings,
+.wpnetbase-btn-delete {
+  border-radius: 3px;
+  box-shadow: none;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline;
+  vertical-align: middle;
+  float: none;
+  margin: 6px 10px;
+  padding: 6px 16px 6px 35px;
+  position: relative;
+  text-decoration: none;
+  transition: all 0.2s linear 0s;
+  background: url("icons/gear.png") no-repeat scroll 8px center #40A8B6;
+  box-shadow: 0px 10px 14px -13px #000000;
+  -webkit-box-shadow: 0px 10px 12px -13px #000000;
+}
+
+.wpnetbase-btn-delete {
+  background: url("icons/cross.png") no-repeat scroll 8px center #B64540;
+}
+
+.wpnetbase-btn-settings:hover,
+.wpnetbase-btn-delete:hover {
+  color: #EEEEEE;
+}
+
+#preview a.maximise,
+#wpnetbase a.maximise,
+#preview a.refresh,
+#wpnetbase a.refresh,
+#wpnetbase a.general,
+#wpnetbase a.multisite,
+#wpnetbase a.frontend,
+#wpnetbase a.layout,
+#wpnetbase a.autocomplete,
+#wpnetbase a.theme,
+#wpnetbase a.subtheme,
+#wpnetbase a.advanced {
+  border-bottom-color: #3D3D3D;
+  border-radius: 3px;
+  box-shadow: none;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  float: none;
+  margin: 6px 10px;
+  padding: 6px 16px 6px 35px;
+  position: relative;
+  text-decoration: none;
+  transition: all 0.2s linear 0s;
+
+}
+
+#wpnetbase a.cache,
+#wpnetbase a.error,
+#wpnetbase a.back,
+#wpnetbase a.statistics {
+  cursor: pointer;
+  display: inline-block;
+  text-transform: none;
+  color: #3a424c;
+  margin: 6px 10px;
+  padding: 6px 16px 6px 35px;
+}
+
+#preview a.maximise:hover,
+#wpnetbase a.maximise:hover,
+#preview a.refresh:hover,
+#wpnetbase a.refresh:hover,
+#wpnetbase a.back:hover,
+#wpnetbase a.general:hover,
+#wpnetbase a.multisite:hover,
+#wpnetbase a.frontend:hover,
+#wpnetbase a.layout:hover,
+#wpnetbase a.autocomplete:hover,
+#wpnetbase a.theme:hover,
+#wpnetbase a.advanced:hover,
+#wpnetbase a.advanced:hover,
+#wpnetbase a.cache:hover,
+#wpnetbase a.error:hover,
+#wpnetbase a.statistics:hover {
+  opacity: 0.8;
+}
+
+#wpnetbase a.back:active,
+#wpnetbase a.general:active,
+#wpnetbase a.multisite:active,
+#wpnetbase a.frontend:active,
+#wpnetbase a.layout:active,
+#wpnetbase a.autocomplete:active,
+#wpnetbase a.theme:active,
+#wpnetbase a.advanced:active,
+#wpnetbase a.cache:active,
+#wpnetbase a.error:active,
+#wpnetbase a.statistics:active  {
+
+}
+#preview a.maximise,
+#wpnetbase a.maximise {
+  background: url("icons/b-maximise.png") no-repeat scroll 5px 5px #63A69F;
+}
+
+#preview a.refresh,
+#wpnetbase a.refresh {
+  background: url("icons/b-refresh.png") no-repeat scroll 5px 5px #7289A7;
+}
+
+#wpnetbase a.back {
+  background: url("icons/b-back.png") no-repeat scroll 5px 5px transparent;
+}
+
+#wpnetbase a.general {
+  background: url("icons/b-settings.png") no-repeat scroll 5px 5px #4095B6;
+}
+
+#wpnetbase a.multisite {
+  background: url("icons/b-multisite.png") no-repeat scroll 5px 5px #4095B6;
+}
+
+#wpnetbase a.frontend {
+  background: url("icons/b-frontend.png") no-repeat scroll 5px 5px #4095B6;
+}
+
+#wpnetbase a.layout {
+  background: url("icons/b-layout.png") no-repeat scroll 5px 5px #4095B6;
+}
+
+#wpnetbase a.autocomplete {
+  background: url("icons/b-bulb.png") no-repeat scroll 5px 5px #4095B6;
+}
+
+#wpnetbase a.theme {
+  background: url("icons/b-eye.png") no-repeat scroll 5px 5px #4095B6;
+}
+
+#wpnetbase a.subtheme {
+  background: none repeat scroll 0 0 #414D50;
+  font-size: 12px;
+  margin: 5px 1px 0 9px;
+  padding: 3px 8px;
+}
+
+#wpnetbase a.subtheme.current {
+  box-shadow: none;
+}
+
+#wpnetbase a.advanced {
+  background: url("icons/b-asettings.png") no-repeat scroll 5px 5px #4095B6;
+}
+
+#wpnetbase a.cache {
+  background: url("icons/b-tray.png") no-repeat scroll 5px 5px transparent;
+}
+
+#wpnetbase a.error {
+  background: url("icons/b-warning.png") no-repeat scroll 5px 5px transparent;
+}
+
+#wpnetbase a.statistics {
+  background: url("icons/b-stat.png") no-repeat scroll 5px 5px transparent;
+}
+
+#wpnetbase .sortablecontainer .ui-left {
+  text-align: left;
+  background: none repeat scroll 0 0 #FFFFFF !important;
+  border: 1px dotted #D3D3D3 !important;
+}
+
+#wpnetbase .sortablecontainer input[type="text"] {
+  background: url("icons/pen.png") no-repeat scroll 7px 7px #FCFCFC;
+  border: 1px solid #EAEAEA;
+  border-radius: 0 3px 3px 3px;
+  box-shadow: none;
+  clear: both;
+  color: #666666;
+  font-family: 'Droid Sans',Helvetica,'Helvetica Neue',Arial,sans-serif;
+  height: 30px;
+  line-height: 22px;
+  margin-top: 0;
+  padding: 0 25px;
+  text-align: left;
+  transition: background-color 0.3s ease 0s;
+  width: auto;
+}
+
+#wpnetbase .sortablecontainer label {
+  background: none repeat scroll 0 0 #EAEAEA;
+  border-radius: 3px 3px 0 0;
+  border-top: 1px solid #EAEAEA;
+  box-shadow: 0 1px 0 #F4F4F4 inset;
+  color: #666666;
+  display: inline-block;
+  font-size: 12px;
+  height: 20px;
+  line-height: 21px;
+  margin-bottom: 0;
+  margin-left: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  text-align: center;
+  text-shadow: 1px 1px 0 #FFFFFF;
+}
+
+#wpnetbase input.color {
+  background:0;
+  width:92px;
+}
+#wpnetbase textarea {
+  width:334px;
+  height:150px;
+  line-height:100%;
+}
+#wpnetbase input:hover,#wpnetbase textarea:hover,#wpnetbase input:focus,#wpnetbase textarea:focus {
+  border-color:#C9C9C9;
+  -webkit-box-shadow:rgba(0,0,0,0.15) 0px 0px 8px;
+}
+#wpnetbase form label {
+  margin:0 10px;
+  color:#6F6F6F;
+}
+
+#wpnetbase input[type=button] {
+  -moz-box-shadow:inset 0px 1px 0px 0px #cf866c;
+  -webkit-box-shadow:inset 0px 1px 0px 0px #cf866c;
+  box-shadow:inset 0px 1px 0px 0px #cf866c;
+
+  background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #d0451b), color-stop(1, #bc3315));
+  background:-moz-linear-gradient(top, #d0451b 5%, #bc3315 100%);
+  background:-webkit-linear-gradient(top, #d0451b 5%, #bc3315 100%);
+  background:-o-linear-gradient(top, #d0451b 5%, #bc3315 100%);
+  background:-ms-linear-gradient(top, #d0451b 5%, #bc3315 100%);
+  background:linear-gradient(to bottom, #d0451b 5%, #bc3315 100%);
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#d0451b', endColorstr='#bc3315',GradientType=0);
+
+  background-color:#d0451b;
+
+  -moz-border-radius:3px;
+  -webkit-border-radius:3px;
+  border-radius:3px;
+
+  border:1px solid #942911;
+
+  display:inline-block;
+  color:#ffffff;
+  font-size:13px;
+  font-weight:normal;
+  padding:6px 24px;
+  text-decoration:none;
+
+  text-shadow:0px 1px 0px #854629;
+  margin-right: 0;
+  cursor: pointer;
+  width: auto;
+}
+
+
+#wpnetbase input[type=submit],
+#wpnetbase input[type=button].submit {
+  margin: 7px 5px 0;
+  line-height: 12px;
+  padding: 8px 14px;
+  box-shadow: 0px 1px 0px 0px #92391D, 0px 1px 0px 0px #C24822 inset;
+  background: linear-gradient(to bottom, #D03F1B 5%, #BC3615 100%);
+  border: 0;
+  border-radius: 2px;
+  text-shadow: 1px 1px 0px #9B4C3D;
+  font-size: 13px;
+  color: #FFF;
+  position: relative;
+  cursor: pointer;
+  width: auto;
+}
+
+#wpnetbase input[type=submit]:active,
+#wpnetbase input[type=button].submit:active {
+  box-shadow: 0px 1px 0px 0px #92391D, 0px 1px 0px 0px #C24822 inset;
+  background: #92391D;
+  outline-width: 0;
+}
+
+#wpnetbase input[type=submit]:focus,
+#wpnetbase input[type=button].submit:focus {
+  outline-width: 0;
+}
+
+#wpnetbase input[type=button].submit[disabled] {
+  opacity: 0.7;
+}
+
+#wpnetbase .one-item button[name='add']::before,
+#wpnetbase .wpnetbaseCustomContent .customContent button[name='add']::before {
+  background: url('icons/add-before.png') no-repeat scroll center center #228EC2;
+}
+
+#wpnetbase input[type=button]:hover {
+  background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #bc3315), color-stop(1, #d0451b));
+  background:-moz-linear-gradient(top, #bc3315 5%, #d0451b 100%);
+  background:-webkit-linear-gradient(top, #bc3315 5%, #d0451b 100%);
+  background:-o-linear-gradient(top, #bc3315 5%, #d0451b 100%);
+  background:-ms-linear-gradient(top, #bc3315 5%, #d0451b 100%);
+  background:linear-gradient(to bottom, #bc3315 5%, #d0451b 100%);
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#bc3315', endColorstr='#d0451b',GradientType=0);
+
+  background-color:#bc3315;
+}
+
+#wpnetbase input[type=button]:active,
+#wpnetbase input[type=submit]:active {
+  position:relative;
+  top:1px;
+}
+
+#wpnetbase input[type=submit].red {
+  background:#ad3939;
+}
+
+#wpnetbase input[type=submit].green {
+  background:#39ad41;
+  border: 1px solid #0a5f10;
+  box-shadow: none;
+}
+
+#wpnetbase input[type=button].submit.wd_button_green {
+  box-shadow: 0px 1px 0px 0px #116227, 0px 1px 0px 0px #35B548 inset;
+  background: linear-gradient(to bottom, #35B055 5%, #339B4F 100%);
+  text-shadow: 1px 1px 0px #2a9b42;
+}
+
+#wpnetbase input[type=button].submit.wd_button_blue {
+  box-shadow: 0px 1px 0px 0px #153b62, 0px 1px 0px 0px #1b74b5 inset;
+  background: linear-gradient(to bottom, #1d82b0 5%, #17769b 100%);
+  text-shadow: 1px 1px 0px #177e9b;
+}
+
+#wpnetbase .sortable .wpnetbase-box {
+  background:transparent url(icons/drag.png) no-repeat;
+  position:relative;
+  cursor:move;
+}
+#wpnetbase .sortable .wpnetbase-box .drag {
+  cursor:pointer;
+  height:46px;
+  position:absolute;
+  top:0;
+  left:0;
+  width:30px;
+}
+#wpnetbase label {
+  vertical-align:baseline;
+  margin:0 10px;
+  color:#999999;
+}
+#wpnetbase input.quick_shortcode,
+#wpnetbase input.shortcode {
+  padding:1px 1px 1px 5px;
+  border:solid 1px #E5E5E5;
+  outline:0;
+  width:200px;
+  height: 30px;
+  cursor: text;
+  font-size:12px;
+}
+
+#wpnetbase input.shortcode:hover,
+#wpnetbase input.shortcode:focus {
+  width: 500px;
+  position: absolute;
+  border: 1px solid #999;
+  box-shadow: none;
+}
+/*
+#wpnetbase input.shortcode:hover + label.shortcode:after {
+	content: "";
+	display: inline-block;
+	width: 213px;
+}
+*/
+
+#wpnetbase img.infoimage {
+  cursor:pointer;
+  margin-left:8px;
+  margin-top:-2px;
+  vertical-align:middle;
+}
+#wpnetbase .item {
+  width: auto;
+  text-align: right;
+  padding: 16px 0 8px;
+  /* margin: 12px 0 1px; */
+  border: 0;
+}
+
+#wpnetbase .item.item-flex,
+#wpnetbase .item.item-flex-nogrow {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+
+#wpnetbase .item.item-flex-nogrow > div {
+  flex-grow: 0;
+}
+
+#wpnetbase .item.item-flex-nogrow > div:first-child {
+  flex-grow: 1;
+}
+
+
+#wpnetbase .item:nth-child(2n) {
+  /* background: #EFEFEF; */
+}
+
+#wpnetbase fieldset fieldset .item {
+  border-bottom: 1px dashed #e7e7e7;
+  background: transparent !important;
+}
+
+#wpnetbase fieldset fieldset .item:last-child {
+  border-bottom: 0;
+}
+
+#wpnetbase .wpnetbase-box {
+  overflow:hidden;
+  background: #FEFEFE;
+  border:solid 1px #DDDDDD;
+  outline:0;
+  font:normal 13px/100% Verdana,Tahoma,sans-serif;
+  box-shadow:rgba(0,0,0,0.1) 0px 0px 8px;
+  -moz-box-shadow:rgba(0,0,0,0.1) 0px 0px 8px;
+  -webkit-box-shadow:rgba(0,0,0,0.1) 0px 0px 8px;
+  padding:10px;
+  margin:10px;
+  width: 790px;
+}
+#wpnetbase .wpnetbase-box .slider-info {
+  height:26px;
+  margin:4px 0 0 0;
+  font-size:1.1em;
+  padding:0 0 0 20px;
+  line-height: 24px;
+}
+#wpnetbase .wpnetbase-box .slider-info span {
+  margin-left:20px;
+}
+#wpnetbase .wpnetbase-box .slider-info img {
+  margin-left:8px;
+  margin-top:-2px;
+  vertical-align:middle;
+  cursor:pointer;
+}
+#wpnetbase .preview {
+  height:28px;
+  vertical-align:middle;
+  border-radius:2px;
+  float:none;
+  cursor:pointer;
+}
+#wpnetbase fieldset {
+  border:1px solid #EEEEEE;
+  margin:20px 5px 5px 5px;
+  padding:11px;
+}
+
+#wpnetbase fieldset:first-child {
+  margin: 6px 5px 5px 5px;
+}
+
+#wpnetbase form fieldset {
+  border:1px solid #EEEEEE;
+  margin:20px 5px 30px;
+  padding:11px;
+}
+
+#wpnetbase fieldset fieldset {
+  background: none repeat scroll 0 0 #FEFEFE;
+  border: 1px dotted #DDDDDD;
+  font-size: 0.9em;
+  line-height: 45px;
+  margin: 5px 0 20px;
+  padding: 11px;
+}
+
+#wpnetbase fieldset fieldset fieldset {
+  line-height: 25px;
+  border: 0;
+}
+
+#wpnetbase fieldset fieldset legend {
+  color: #333;
+}
+
+#wpnetbase fieldset fieldset fieldset legend {
+  color: #666;
+}
+
+#wpnetbase .wpnetbaseanimationselect + span {
+  padding: 4px 11px;
+  display: inline-block;
+  background: #eee;
+  margin: 3px;
+  animation-delay: 0.3s;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  animation-timing-function: ease;
+  backface-visibility: hidden;
+  -webkit-animation-delay: 0.3s;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  -webkit-animation-timing-function: ease;
+  -webkit-backface-visibility: hidden;
+}
+
+
+#wpnetbase .successMsg {
+  color:#1a772c;
+  padding:7px;
+  margin:5px;
+  border:1px solid #eee;
+  background:#f1fff1;
+  border-radius:3px;
+}
+/*#wpnetbase .infoMsg {
+  background: #FFFDF1;
+  border: 1px solid #EEEEEE;
+  border-radius: 3px;
+  color: #776D1A;
+  margin: 6px 0 12px;
+  padding: 7px;
+  text-align: left;
+}*/
+#wpnetbase .infoMsg,
+#wpnetbase .infoMsgBox,
+#wpnetbase .errorMsg,
+#wpnetbase .errorMsgBox,
+#wpnetbase .noticeMsg,
+#wpnetbase .noticeMsgBox {
+  margin: 5px 6px 15px;
+  border-left: 4px solid #43DD36;
+  background: #fff;
+  -webkit-box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+  box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+  padding: 6px 13px;
+}
+
+#wpnetbase .errorMsg,
+#wpnetbase .errorMsgBox {
+  border-left: 4px solid #DD3636;
+}
+
+#wpnetbase .noticeMsg,
+#wpnetbase .noticeMsgBox {
+  border-left: 4px solid #DD8B36;
+}
+
+#wpnetbase .infoMsgBox,
+#wpnetbase .errorMsgBox,
+#wpnetbase .noticeMsgBox{
+  padding: 10px;
+  margin: 10px;
+  width: 790px;
+}
+
+#wpnetbase .descMsg {
+  border-radius: 3px;
+  color: #979797;
+  margin: -3px 0 0px;
+  padding: 7px;
+  text-align: right;
+  font-size: 12px;
+}
+
+#wpnetbase .biggerDescMsg {
+  border-radius: 3px;
+  color: #979797;
+  margin: -3px 0 0px;
+  padding: 7px;
+  text-align: left;
+  font-size: 14px;
+}
+
+.tooltip {
+  display:none;
+  background:transparent url(icons/black_arrow.png);
+  font-size:12px;
+  height:70px;
+  width:160px;
+  padding:25px;
+  color:#eee;
+}
+#wpnetbase .overlay {
+  display:none;
+  z-index:10000;
+  background-color:#333;
+  min-width:10px;
+  min-height:10px;
+  border:1px solid #666;
+  -moz-box-shadow:0 0 90px 5px #000;
+  -webkit-box-shadow:0 0 90px #000;
+}
+#wpnetbase .overlay .close {
+  background-image:url(icons/close.png);
+  position:absolute;
+  right:-15px;
+  top:-15px;
+  cursor:pointer;
+  height:35px;
+  width:35px;
+}
+#wpnetbase .labeldrag {
+  background:#eee;
+  position:relative;
+  border:1px solid #ddd;
+  width:410px;
+  float:right;
+}
+#wpnetbase .labeldrag .inner {
+  background:#FFF;
+  position:absolute;
+  top:5px;
+  left:5px;
+  border:1px solid #ddd;
+  background:url(icons/labelposition.png) no-repeat #fff;
+}
+#wpnetbase .labeldrag .inner .dragme {
+  width:10px;
+  height:10px;
+  background-image:url(icons/point.png);
+  cursor: pointer;
+}
+
+#wpnetbase span.radioimage {
+  vertical-align:middle;
+  margin:0 10px;
+  color:#999999;
+}
+
+#wpnetbase img.radioimage {
+  border: 2px solid #eee;
+  border-radius: 4px;
+  margin: 5px;
+  cursor: pointer;
+  vertical-align:middle;
+  padding: 5px;
+  background: #fefefe;
+  max-height: 24px;
+}
+
+#wpnetbase img.radioimage:hover {
+  border: 2px solid #ddd;
+}
+
+#wpnetbase img.radioimage.selected {
+  background: none repeat scroll 0 0 #fefefe;
+  border: 2px solid #4897bc;
+}
+
+#wpnetbase span.loaderselect {
+  vertical-align:middle;
+  margin:0 10px;
+  color:#999999;
+}
+
+#wpnetbase .wpnetbaseSelectTags {
+  border-bottom: 1px dashed #E5E5E5;
+  padding-bottom: 16px;
+}
+
+#wpnetbase .wd_tagSelSearch,
+#wpnetbase div.wd_tagAllStatus {
+  margin: 15px 0px 0px;
+}
+
+#wpnetbase .wd_tagSelSearch .hiddend {
+  display: none !important;
+}
+
+#wpnetbase .wd_ts_close {
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+#wpnetbase .wd_tagSearchResults {
+  text-align: right;
+  margin: 10px;
+}
+
+#wpnetbase .wd_tagSearchResults p {
+  color: #777;
+}
+
+#wpnetbase .wd_tagSearchResults p span {
+  /* text-decoration: underline; */
+  border: 1px solid #717171;
+  display: inline-block;
+  margin: 2px 0 2px 10px;
+  border-radius: 3px;
+  padding: 1px 6px;
+  opacity: 0.3;
+}
+
+#wpnetbase .wd_tagSearchResults p span.not_listed_yo {
+  opacity: 1;
+  cursor: pointer;
+}
+
+#wpnetbase .wd_tagSelSearch .loading-small {
+  width: 24px;
+  height: 24px;
+  margin: 0 auto;
+  background: transparent url("icons/load24x24.gif") no-repeat center center;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+#wpnetbase .wd_tagSelectContent span {
+  padding: 3px 5px;
+  color: #777;
+  /* background: #efefef; */
+  margin: 5px;
+  display: inline-block;
+  cursor: move;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+#wpnetbase .wd_tagSelectContent span a {
+  width: 20px;
+  cursor: pointer;
+}
+
+#wpnetbase .wd_tagSelectContent span a.wd_tag_remove:before,
+#wpnetbase .wd_tagSelectContent span a.wd_tag_checked:before,
+#wpnetbase .wd_tagSelectContent span a.wd_tag_unchecked:before {
+  background: 0 0;
+  color: #b4b9be;
+  content: "\f153";
+  display: inline-block;
+  vertical-align: bottom;
+  font: 400 16px/20px dashicons;
+  speak: none;
+  height: 20px;
+  text-align: center;
+  width: 20px;
+  -webkit-font-smoothing: antialiased;
+  margin: 1px 0;
+}
+
+#wpnetbase .wd_tagSelectContent span a.wd_tag_checked,
+#wpnetbase .wd_tagSelectContent span a.wd_tag_unchecked {
+  margin-right: 3px;
+  margin-left: -5px;
+}
+
+#wpnetbase .wd_tagSelectContent span a.wd_tag_checked:before,
+#wpnetbase .wd_tagSelectContent span a.wd_tag_unchecked:before {
+  content: "\f147";
+  font: 400 22px dashicons;
+}
+
+#wpnetbase .wd_tagSelectContent span a.wd_tag_checked:before {
+  color: #40a0c9;
+}
+
+#wpnetbase .wd_tagSelectContent span a.wd_tag_checked:hover:before,
+#wpnetbase .wd_tagSelectContent span a.wd_tag_unchecked:hover:before {
+  opacity: 0.6;
+}
+
+#wpnetbase .wd_tagSelectContent span a.wd_tag_unchecked:before{
+  color: #c7ccd1;
+}
+
+#wpnetbase .wd_tagSelectContent span a.wd_tag_remove:hover:before {
+  color: #c00;
+}
+
+#wpnetbase .wpnetbaseYesNoSt {
+  display: inline-block;
+}
+
+#wpnetbase .wpnetbaseYesNoSt .wpnetbaseYesNoInner {
+  background: url("icons/on-off-new.png") no-repeat scroll -29px 0px transparent;
+  background-color: #ddb9b9;
+  border-radius: 2px;
+  box-shadow: 0px 1px 4px -2px #000000 inset;
+  -webkit-box-shadow: 0px 1px 5px -2px #000000 inset;
+  display: inline-block;
+  height: 27px;
+  transition: all 0.2s linear 0s;
+  vertical-align: middle;
+  width: 61px;
+  cursor: pointer;
+}
+
+#wpnetbase .wpnetbaseYesNoSt.active .wpnetbaseYesNoInner {
+  background-position: -1px 0;
+  background-color: #bfd6e4;
+}
+
+
+#wpnetbase div.asp-select-loader,
+#wpnetbase div.asp-select-loader-selected {
+  border-radius: 0;
+  margin: 5px;
+  cursor: pointer;
+  vertical-align:middle;
+  padding: 5px;
+  background: #525252;
+  /* max-height: 28px; */
+  width: 28px;
+  height: 28px;
+  display: inline-block;
+  vertical-align: middle;
+  box-sizing: content-box;
+  border: 2px solid transparent;
+}
+
+#wpnetbase div.asp-select-loader:hover,
+#wpnetbase div.asp-select-loader-selected:hover {
+  /* border: 2px solid #ddd; */
+}
+
+#wpnetbase div.asp-select-loader-selected {
+  background: none repeat scroll 0 0 #1694BF;
+  border: 2px solid #313131;
+}
+
+#wpnetbase .wpnetbaseBoxShadow {
+  text-align:right;
+}
+
+#wpnetbase .wpnetbaseBoxShadow .wpnetbaseColorPicker {
+  display: inline-block;
+  /* float: right; */
+  margin-bottom: 13px;
+}
+
+#wpnetbase .wpnetbaseBorder {
+  text-align:right;
+}
+
+#wpnetbase input.twodigit {
+  width: 37px;
+  text-align:right;
+}
+
+#preview .big-loading {
+  width: 400px;
+  height: 317px;
+  margin: 0 auto;
+  background: transparent url("icons/loading-big.gif") no-repeat center center;
+}
+
+#wpnetbase .small-loading {
+  width: 24px;
+  height: 24px;
+  margin: 0 auto;
+  background: transparent url("icons/load24x24.gif") no-repeat center center;
+}
+
+#wpnetbase .wpnetbaseThemeChooser span {
+  background: url("icons/paint.png") no-repeat scroll 0 0 transparent;
+  display: inline-block;
+  height: 32px;
+  margin: 0 10px;
+  vertical-align: middle;
+  width: 32px;
+}
+
+#wpnetbase .sortablecontainer {
+  width: 40%;
+  margin: 15px 30px;
+  float: left;
+  text-align: center;
+  color: #999;
+  position: relative;
+}
+
+#wpnetbase .sortablecontainer p {
+  margin: 0 0 10px;
+}
+
+#wpnetbase .sortablecontainer ul {
+  height: 220px;
+  overflow: auto;
+  padding: 10px;
+  background: url('icons/pattern-subtle.png') repeat center center #f6f6f6;
+  border: 1px solid #DBDBDB;
+}
+
+#wpnetbase .sortablecontainer ul li {
+  padding: 6px;
+  cursor: move;
+  margin: 0 0 4px;
+  background: #fefefe;
+}
+
+#wpnetbase .sortablecontainer ul li.termlevel-1 {
+  width: 87%;
+  margin-left: 8%;
+}
+
+#wpnetbase .sortablecontainer ul li.termlevel-2 {
+  width: 80%;
+  margin-left: 15%;
+}
+
+#wpnetbase .sortablecontainer ul li.termlevel-3 {
+  width: 70%;
+  margin-left: 25%;
+}
+
+#wpnetbase .sortablecontainer ul li.termlevel-4 {
+  width: 60%;
+  margin-left: 35%;
+}
+
+
+#wpnetbase .sortablecontainer .arrow-all-left,
+#wpnetbase .sortablecontainer .arrow-all-right {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 50%;
+  margin-top: -30px;
+  left: 100%;
+  margin-left: 18px;
+  border: 1px solid #BCBCBC;
+  background: transparent url("icons/arrow-all-left.png") no-repeat 4px 5px;
+  cursor: pointer;
+}
+
+#wpnetbase .sortablecontainer .arrow-all-right {
+  background: transparent url("icons/arrow-all-right.png") no-repeat 6px 5px;
+  margin-top: 15px;
+}
+
+#wpnetbase .item p.extra {
+  margin: 20px;
+  color: #aaa;
+}
+
+#wpnetbase .wpnetbase-box.errorbox {
+  width: 770px;
+  padding: 20px;
+}
+
+#wpnetbase .wpnetbase-box.errorbox h1 {
+  font-size: 18px;
+  margin: 0px 0 8px;
+  font-family: Open Sans;
+  border-bottom: 1px solid #F1F1F1;
+  padding: 0 0 9px;
+  font-weight: 300;
+  color: red;
+}
+
+#wpnetbase .wpnetbase-box.errorbox h3 {
+  font-size: 15px;
+  margin-bottom: 6px;
+  color: #111;
+  font-family: Open Sans;
+  font-weight: 400;
+}
+
+#wpnetbase .wpnetbase-box.errorbox ol {
+  margin: 0;
+  padding: 0;
+}
+
+#wpnetbase .wpnetbase-box.errorbox ol li {
+  margin: 0 0 15px 18px;
+  padding: 0;
+}
+
+#wpnetbase .wpnetbase-box.errorbox div {
+  padding: 7px;
+  background: #FFF;
+  border-bottom: 1px solid #eee;
+  margin: 5px;
+}
+
+#wpnetbase .wpnetbase-box.errorbox div p {
+  font-size: 14px;
+  padding: 0;
+  margin: 0 0 16px;
+  line-height: 20px;
+  color: rgb(56, 56, 56);
+}
+
+#wpnetbase .wpnetbase-box.errorbox div p.err {
+  color: rgb(234, 85, 85);
+}
+
+#wpnetbase .wpnetbase-box.errorbox div p.sols {
+  color: #111;
+}
+
+#wpnetbase .wpnetbase-box.errorbox p.errors,
+#wpnetbase .wpnetbase-box.errorbox p.tick {
+  background: url(icons/exclamation.png) no-repeat scroll 0 center / 20px 20px transparent;
+  line-height: 20px;
+  margin: 0;
+  padding: 0 34px;
+}
+
+#wpnetbase .wpnetbase-box.errorbox p.tick {
+  background: url(icons/tick.png) no-repeat scroll 0 center / 20px 20px transparent;
+}
+
+@keyframes blink {
+  0% { opacity: 1 }
+  10% { opacity: 0.8 }
+  20% { opacity: 0.7 }
+  30% { opacity: 0.6 }
+  40% { opacity: 0.5 }
+  50% { opacity: 0.45 }
+  60% { opacity: 0.5 }
+  70% { opacity: 0.6 }
+  80% { opacity: 0.7 }
+  90% { opacity: 0.8 }
+  100%  { opacity: 1 }
+}
+@-webkit-keyframes blink {
+  0% { opacity: 1 }
+  10% { opacity: 0.8 }
+  20% { opacity: 0.7 }
+  30% { opacity: 0.6 }
+  40% { opacity: 0.5 }
+  50% { opacity: 0.45 }
+  60% { opacity: 0.5 }
+  70% { opacity: 0.6 }
+  80% { opacity: 0.7 }
+  90% { opacity: 0.8 }
+  100%  { opacity: 1 }
+}
+#wpnetbase .blink {
+  -webkit-animation: blink 1.5s linear infinite;
+  -moz-animation: blink 1.5s linear infinite;
+  -ms-animation: blink 1.5s linear infinite;
+  -o-animation: blink 1.5s linear infinite;
+  animation: blink 1.5s linear infinite;
+}
+
+
+#wpnetbase .mini {
+  width: 245px !important;
+  float: right;
+}
+
+.wpnetbase-hint {
+  font-size: 10px;
+  color: #aaa;
+  line-height: 13px;
+  margin-top: 0px !important;
+  display: block !important;
+}
+
+.wpnetbase-updown {
+  width: 12px;
+  height: 25px;
+  background: transparent url('icons/updown12x25.png') no-repeat;
+  display: inline-block;
+  vertical-align: bottom;
+  margin: 0 3px;
+}
+
+.wpnetbase-updown .wpnetbase-uparrow,
+.wpnetbase-updown .wpnetbase-downarrow {
+  width: 12px;
+  height: 12px;
+  cursor: pointer;
+}
+
+#wpnetbase .wpnetbaseYesNo,
+#wpnetbase .wpnetbaseOnOff {
+  display: inline-block;
+}
+
+#wpnetbase .wpnetbaseYesNo .wpnetbaseYesNoInner,
+#wpnetbase .wpnetbaseOnOff .wpnetbaseOnOffInner {
+  background: url("icons/on-off-new.png") no-repeat scroll -29px 0px transparent;
+  background-color: #ddb9b9;
+  border-radius: 2px;
+  box-shadow: 0px 1px 4px -2px #000000 inset;
+  -webkit-box-shadow: 0px 1px 5px -2px #000000 inset;
+  display: inline-block;
+  height: 27px;
+  transition: all 0.2s linear 0s;
+  vertical-align: middle;
+  width: 61px;
+  cursor: pointer;
+}
+
+#wpnetbase .wpnetbaseOnOff .wpnetbaseOnOffInner {
+  background: url("icons/on-off.png") no-repeat scroll right top transparent;
+}
+
+#wpnetbase .wpnetbaseYesNo.active .wpnetbaseYesNoInner,
+#wpnetbase .wpnetbaseOnOff.active .wpnetbaseOnOffInner {
+  background-position: -1px 0;
+  background-color: #bfd6e4;
+}
+
+#wpnetbase .wpnetbaseGradient {
+  line-height: 42px;
+  padding-right: 19px;
+}
+
+#wpnetbase .grad_ex {
+  border: 1px solid #555555;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+  display: inline-block;
+  height: 28px;
+  margin-left: 8px;
+  vertical-align: middle;
+  width: 30px;
+}
+
+
+#wpnetbase .dslider {
+  width: 300px;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 10px;
+}
+
+#wpnetbase .ddisplay {
+  width: 31px;
+  height: 31px;
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+#wpnetbase .ddisplay .dbg {
+  background: url("icons/grad-deg.png") no-repeat scroll right top transparent;
+  width: 31px;
+  height: 31px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  transition: all 0.4s linear;
+}
+
+#wpnetbase .dtxt {
+  width: 25px;
+  margin-left: 6px;
+  height: 13px;
+  line-height: 11px;
+  left: 0;
+  text-align: center;
+  font-size: 13px;
+  display: inline-block;
+}
+
+#wpnetbase .asp_console {
+  margin: 10px;
+  font-size: 13px;
+  color: #444;
+}
+
+#wpnetbase .wpnetbaseCustomContent .sortablecontainer {
+  width: 100%;
+  margin: 0;
+}
+
+#wpnetbase .wpnetbaseCustomContent .sortablecontainer:after {
+  clear: both;
+}
+
+#wpnetbase .wpnetbaseCustomContent .ui-sortable {
+  height: 80px;
+  white-space: nowrap;
+  max-width: 690px;
+  overflow-y: hidden;
+  overflow-x: auto;
+  line-height: auto;
+  text-align: left;
+}
+
+#wpnetbase .wpnetbaseCustomContent .ui-sortable li {
+  width: 80px;
+  height: 100%;
+  padding: 0;
+  margin: 0 10px;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+  position: relative;
+  white-space: normal;
+}
+
+#wpnetbase .wpnetbaseCustomContent .ui-sortable li:hover .iconTopRight {
+  opacity: 1;
+}
+
+#wpnetbase .wpnetbaseCustomContent .ui-sortable li .content {
+  width: 90%;
+  height: 90%;
+  overflow: hidden;
+  white-space: normal;
+  padding: 5%;
+  background: #FEFEFE;
+}
+
+#wpnetbase input.missing,
+#wpnetbase textarea.missing {
+  box-shadow: 0px 0px 4px 0px #f00;
+}
+
+#wpnetbase .deleteIcon,
+#wpnetbase .addIcon,
+#wpnetbase .editIcon {
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  background: url(icons/delete.png);
+  cursor: pointer;
+}
+
+#wpnetbase .addIcon {
+  background: url(icons/add.png);
+}
+
+#wpnetbase .editIcon {
+  background: url(icons/edit.png);
+}
+
+#wpnetbase .iconTopRight {
+  position: absolute;
+  top: -6px;
+  right: -7px;
+  opacity: 0;
+  transition: 0.2s opacity linear;
+}
+
+#wpnetbase .iconRightMiddle {
+  position: absolute;
+  top: 50%;
+  margin-top: -12px;
+  right: 6px;
+}
+
+#wpnetbase .wpnetbaseCustomContent .customContent,
+#wpnetbase .wpnetbaseCustomContent .searchContent {
+  width: 45%;
+  float: left;
+  background: url('icons/pattern-subtle.png') repeat center center #f6f6f6;
+  margin: 13px 0 0;
+  border: 1px solid #DBDBDB;
+  min-width: 260px;
+  box-shadow: 0 0 6px -4px #111;
+}
+
+#wpnetbase .one-item,
+#wpnetbase .wpnetbaseCustomContent .one-item {
+  margin: 8px 10px;
+}
+
+#wpnetbase .wpnetbaseCustomContent .result-item {
+  margin: 8px 10px;
+  border: 1px solid #ccc;
+  text-align: left;
+  padding: 10px;
+  background: #fefefe;
+  position: relative;
+}
+
+#wpnetbase .wpnetbaseCustomContent .itemResults {
+  max-height: 290px;
+  overflow: auto;
+}
+
+#wpnetbase .wpnetbaseCustomContent .result-item p.title {
+  margin: 0 0 4px 0;
+}
+
+#wpnetbase .wpnetbaseCustomContent .result-item p.etc {
+  font-size: 11px;
+  color: #969696;
+}
+
+#wpnetbase .one-item button,
+#wpnetbase .wpnetbaseCustomContent .customContent button {
+  margin: 7px 5px 0;
+  line-height: 12px;
+  padding: 7px 14px;
+  box-shadow: 0px 1px 0px 0px #1D6D92, 0px 1px 0px 0px #228EC2 inset;
+  background: linear-gradient(to bottom, #1B96D0 5%, #1594BC 100%);
+  border: 0;
+  border-radius: 2px;
+  text-shadow: 1px 1px 0px #3D799B;
+  font-size: 13px;
+  color: #FFF;
+  position: relative;
+  cursor: pointer;
+}
+
+
+#wpnetbase .one-item button:active,
+#wpnetbase .wpnetbaseCustomContent .customContent button:active {
+  box-shadow: 0px 1px 0px 0px #1D6D92, 0px 1px 0px 0px #228EC2 inset;
+  background: #2485B4;
+  outline-width: 0;
+}
+
+#wpnetbase .one-item button[name='reset'],
+#wpnetbase .one-item button[name='back'] {
+  box-shadow: 0px 1px 0px 0px #923C1D, 0px 1px 0px 0px #C24D22 inset;
+  background: linear-gradient(to bottom, #D0591B 5%, #BC4E15 100%);
+  text-shadow: 1px 1px 0px #9B523D;
+}
+
+#wpnetbase .one-item button:active,
+#wpnetbase .wpnetbaseCustomContent .customContent button:active {
+  box-shadow: 0px 1px 0px 0px #1D6D92, 0px 1px 0px 0px #228EC2 inset;
+  background: #2485B4;
+  outline-width: 0;
+}
+
+#wpnetbase .one-item button[name='reset']:active,
+#wpnetbase .one-item button[name='back']:active {
+  box-shadow: 0px 1px 0px 0px #923C1D, 0px 1px 0px 0px #C24D22 inset;
+  background: #C24D22;
+  outline-width: 0;
+}
+
+#wpnetbase .one-item button:focus,
+#wpnetbase .wpnetbaseCustomContent .customContent button:focus {
+  outline-width: 0;
+}
+
+#wpnetbase .one-item button::before,
+#wpnetbase .wpnetbaseCustomContent .customContent button::before {
+  content: "";
+  display: inline-block;
+  width: 24px;
+  height: 100%;
+  background: url('icons/upload-before.png') no-repeat scroll center center #228EC2;
+  box-shadow: 0px 1px 0px 0px #1D6D92, 0px 1px 0px 0px #228EC2 inset;
+  /* border-right: 1px solid #F5F5F5; */
+  float: left;
+  position: absolute;
+  top: 0;
+  left: -16px;
+  border-radius: 2px 0 0 2px;
+}
+
+#wpnetbase .one-item button[name='add']::before,
+#wpnetbase .wpnetbaseCustomContent .customContent button[name='add']::before {
+  background: url('icons/add-before.png') no-repeat scroll center center #228EC2;
+}
+
+#wpnetbase .one-item button[name='save']::before {
+  background: url('icons/add-before.png') no-repeat scroll center center #228EC2;
+}
+
+#wpnetbase .one-item button[name='reset']::before {
+  background: url('icons/reset-before.png') no-repeat scroll center center #C24D22;
+  box-shadow: 0px 1px 0px 0px #923C1D, 0px 1px 0px 0px #C24D22 inset;
+}
+
+#wpnetbase .one-item button[name='back']::before {
+  background: url('icons/back-before.png') no-repeat scroll center center #C24D22;
+  box-shadow: 0px 1px 0px 0px #923C1D, 0px 1px 0px 0px #C24D22 inset;
+}
+
+#wpnetbase .wpnetbaseCustomContent .searchContent {
+  float: right;
+}
+
+#wpnetbase .wpnetbaseCustomContent textarea {
+  width: 100%;
+  margin: 0;
+  background: #FFF;
+}
+
+#wpnetbase .wpnetbaseCustomContent h4 {
+  line-height: 24px;
+  width: 100%;
+  display: block;
+  color: #555;
+  text-align:left;
+  font-weight: bold;
+  margin: 8px 14px;
+}
+
+#wpnetbase .wpnetbaseCustomContent .one-item .searchmagn,
+#wpnetbase .wpnetbaseCustomContent .one-item .searchload {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  background: url("icons/magn.svg") no-repeat scroll 0px 0px transparent;
+  background-size: 22px auto;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+#wpnetbase .wpnetbaseCustomContent .one-item .searchload {
+  background: url("icons/load24x24.gif") no-repeat scroll 0px 0px transparent;
+  display: none;
+}
+
+.postbox #wpnetbase fieldset {
+  min-width: 300px;
+}
+
+.postbox #wpnetbase .wpnetbase-box {
+  width: auto;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  -o-box-shadow: none;
+  -ms-box-shadow: none;
+  border: none;
+}
+
+.postbox #wpnetbase .sortablecontainer {
+  width: 100%;
+  float: left;
+}
+
+
+.postbox #wpnetbase .sortablecontainer ul {
+  max-width: 100%;
+}
+
+#wpnetbase .wpnetbaseUpload input[type='button'] {
+  line-height: 12px;
+  padding: 7px 14px;
+  box-shadow: 0px 1px 0px 0px #1D6D92, 0px 1px 0px 0px #228EC2 inset;
+  background: linear-gradient(to bottom, #1B96D0 5%, #1594BC 100%);
+  border: 0;
+  border-radius: 2px;
+  text-shadow: 1px 1px 0px #3D799B;
+  font-size: 13px;
+}
+
+#wpnetbase .wpnetbaseFontComplete h4 {
+  padding: 0;
+  margin: 15px 0px 6px;
+  line-height: 18px;
+  vertical-align: sub;
+  font-size: 13px;
+  color: #7A7A7A;
+  font-weight: bold;
+}
+
+/* css for timepicker */
+.ui-timepicker-div .ui-widget-header { margin-bottom: 8px; }
+.ui-timepicker-div dl { text-align: left; }
+.ui-timepicker-div dl dt { float: left; clear:left; padding: 0 0 0 5px; }
+.ui-timepicker-div dl dd { margin: 0 10px 10px 45%; }
+.ui-timepicker-div td { font-size: 90%; }
+.ui-tpicker-grid-label { background: none; border: none; margin: 0; padding: 0; }
+
+.ui-timepicker-rtl{ direction: rtl; }
+.ui-timepicker-rtl dl { text-align: right; padding: 0 5px 0 0; }
+.ui-timepicker-rtl dl dt{ float: right; clear: right; }
+.ui-timepicker-rtl dl dd { margin: 0 45% 10px 10px; }
+
+.p_asp_row {
+  border-bottom: 1px dashed #ddd;
+  padding: 8px 12px;
+}
+
+.p_asp_row::after {
+  content:'';
+  display:block;
+  clear: both;
+}
+
+.p_asp_title,
+.p_asp_date,
+.p_asp_author,
+.p_asp_priority {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.p_asp_title {
+  width: 80%;
+  line-height: 22px;
+}
+
+.p_asp_author,
+.p_asp_date {
+  font-size: 11px;
+  color: #999;
+  margin-right: 15px;
+}
+
+.p_asp_author {
+
+}
+
+.p_asp_priority {
+  width: 18%;
+  padding-top: 0px;
+  margin-bottom: -18px;
+}
+
+.p_row_header_footer {
+  height: 44px;
+  padding: 6px 12px;
+  border-bottom: 1px dashed #ddd;
+}
+
+.p_row_header_footer:last-child {
+  border-bottom: none;
+}
+
+.p_row_header_footer p {
+  width: 80%;
+  text-aling: left;
+  font-size: 13px;
+  text-transform: uppercase;
+  display: inline-block;
+  color: #bbb;
+}
+
+/************************************************\
+ASP: Layout options -> Custom fields
+\************************************************/
+
+#p_asp_loader {
+  width: 400px;
+  height: 317px;
+  margin: 0 auto;
+  background: transparent url("icons/loading-big.gif") no-repeat center center;
+  display: none;
+}
+
+#wpd_body_loader {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  background: rgba(0, 0, 0, 0.85) url("icons/loading-big.gif") no-repeat center center;
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999999;
+}
+
+div#wpd_loading_msg {
+  color: white;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 32px;
+  margin-top: 200px;
+}
+
+#wpnetbase .customFieldsSortable .sortablecontainer li {
+  position: relative;
+}
+
+#wpnetbase .customFieldsSortable .sortablecontainer li:hover a {
+  opacity: 1;
+}
+
+#wpnetbase .customFieldsSortable .deleteIcon,
+#wpnetbase .customFieldsSortable .editIcon {
+  position: absolute;
+  top: 3px;
+  right: 30px;
+  opacity: 0;
+  transition: all 0.2s linear 0s;
+}
+
+#wpnetbase .customFieldsSortable .deleteIcon {
+  right: 3px;
+}
+
+/************************************************\
+ Shortcodes Header
+\************************************************/
+
+#wpnetbase .asp_b_shortcodes .asp_b_shortcodes_menu {
+  margin: 0 0 0 10px;
+  cursor: pointer;
+}
+
+#wpnetbase .asp_b_shortcodes fieldset {
+  display: none;
+  border: none;
+  padding: 10px 0px;
+  margin: 7px 3px;
+}
+
+#wpnetbase .asp_b_shortcodes.asp_open fieldset {
+  display: block;
+  border-top: 1px solid #eee;
+}
+
+#wpnetbase .asp_b_shortcodes svg {
+  vertical-align: middle;
+  fill: #888;
+  transition: all 0.1s;
+}
+
+#wpnetbase .asp_b_shortcodes.asp_open svg {
+  transform: rotate(180deg);
+}
+
+#wpnetbase .asp_b_shortcodes:hover svg {
+  vertical-align: middle;
+  fill: #666;
+}
+
+#wpnetbase .asp_b_shortcodes span.asp_b_shortcodes_title {
+  vertical-align: middle;
+  margin: 0 0 0 10px;
+  font-size: 14px
+}
+
+
+/************************************************\
+ Instance List
+\************************************************/
+
+#wpnetbase .wpnetbase-box .wpd_instance_edit_icon,
+#wpnetbase input.instance_new_name {
+  display: none;
+}
+
+#wpnetbase input.instance_new_name {
+  margin-left: 16px;
+}
+
+#wpnetbase .wpnetbase-box:hover .wpd_instance_edit_icon,
+#wpnetbase .wpnetbase-box:hover input.instance_new_name,
+#wpnetbase input.instance_new_name:focus {
+  display: inline;
+}
+
+#wpnetbase .wpnetbase-box:hover .wpd_instance_name  {
+  display: none;
+}
+
+
+/************************************************\
+ Progress Bar
+\************************************************/
+
+#wpnetbase .wd_progress_text {
+  width: 100%;
+  margin: 0;
+  padding: 0 5px;
+  text-align: left;
+  box-sizing: border-box;
+}
+
+#wpnetbase .wd_progress {
+  height: 12px;  /* Can be anything */
+  position: relative;
+  text-align: left;
+  background: #555;
+  -moz-border-radius: 0px;
+  -webkit-border-radius: 0px;
+  border-radius: 0px;
+  padding: 10px;
+  box-shadow: inset 0 -1px 1px rgba(255,255,255,0.3);
+  margin: 5px 5px 0 5px;
+}
+
+#wpnetbase .wd_progress_75 {
+  display: inline-block;
+  vertical-align: middle;
+  width: 75%;
+}
+
+#wpnetbase span.wd_progress_stop {
+  display: inline-block;
+  width: 60px;
+  height: 12px;
+  vertical-align: middle;
+  margin: 5px 5px 0 5px;
+  padding: 10px;
+  background: #BF3816;
+  color: white;
+  text-align: center;
+  line-height: 12px;
+  cursor: pointer;
+}
+
+#wpnetbase .wd_progress > span {
+  display: block;
+  text-align: left;
+  height: 100%;
+  border-radius: 0;
+  background-color: rgb(43,194,83);
+  position: relative;
+  overflow: hidden;
+  margin: 0;
+}
+
+#wpnetbase .wd_progress.hiddend,
+#wpnetbase span.wd_progress_stop.hiddend {
+  display: none !important;
+}
+
+/************************************************\
+ Index table Page Specifics
+\************************************************/
+
+form #asp_indextable_options {
+  position: relative;
+}
+
+form #asp_indextable_options #asp_it_disable {
+  position: absolute;
+  z-index: 1000;
+  background: rgba(255, 255, 255, 0.4);
+  width: 100%;
+  height: 100%;
+}
+
+/************************************************\
+ Disabler
+\************************************************/
+
+#wpnetbase .bs-cont {
+  position: relative;
+}
+
+#wpnetbase .bs-cont .bs-overlay {
+  position: absolute;
+  z-index: 1000;
+  background: rgba(255, 255, 255, 0.4);
+  width: 100%;
+  height: 100%;
+}
+
+
+/************************************************\
+ Updates and Help page
+\************************************************/
+
+#wpnetbase.asp_updates_help {
+  font-family: 'PT Sans', Verdana, Tahoma, sans-serif;
+}
+
+#wpnetbase.asp_updates_help .wpnetbase-box {
+  width: 1024px;
+  line-height: 1.5em;
+}
+
+#wpnetbase.asp_updates_help .item {
+  text-align: left;
+  padding: 0 0 8px;
+  margin: 0 0 15px 0;
+}
+
+#wpnetbase.asp_updates_help .item:last-child {
+  margin: 0;
+}
+
+#wpnetbase.asp_updates_help pre {
+  white-space: pre-line;
+}
+
+#wpnetbase.asp_updates_help h3 {
+  font-family: 'PT Sans', Verdana, Tahoma, sans-serif;
+  margin: 0 0 1em 0;
+  font-weight: 700;
+  color: #494949;
+}
+
+#wpnetbase.asp_updates_help dd {
+  margin: 0px 10px 24px 0px;
+}
+#wpnetbase.asp_updates_help dt {
+  margin: 10px 0px 0px 0px;
+}
+
+/************************************************\
+ Tooltip Styles
+\************************************************/
+
+/* Base styles for the element that has a tooltip */
+[data-tooltip],
+.tooltip {
+  position: relative;
+  cursor: pointer;
+}
+
+/* Base styles for the entire tooltip */
+[data-tooltip]:before,
+[data-tooltip]:after,
+.tooltip:before,
+.tooltip:after {
+  position: absolute;
+  visibility: hidden;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+  opacity: 0;
+  -webkit-transition:
+          opacity 0.2s ease-in-out,
+          visibility 0.2s ease-in-out,
+          -webkit-transform 0.2s cubic-bezier(0.71, 1.7, 0.77, 1.24);
+  -moz-transition:
+          opacity 0.2s ease-in-out,
+          visibility 0.2s ease-in-out,
+          -moz-transform 0.2s cubic-bezier(0.71, 1.7, 0.77, 1.24);
+  transition:
+          opacity 0.2s ease-in-out,
+          visibility 0.2s ease-in-out,
+          transform 0.2s cubic-bezier(0.71, 1.7, 0.77, 1.24);
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform:    translate3d(0, 0, 0);
+  transform:         translate3d(0, 0, 0);
+  pointer-events: none;
+}
+
+/* Show the entire tooltip on hover and focus */
+[data-tooltip]:hover:before,
+[data-tooltip]:hover:after,
+[data-tooltip]:focus:before,
+[data-tooltip]:focus:after,
+.tooltip:hover:before,
+.tooltip:hover:after,
+.tooltip:focus:before,
+.tooltip:focus:after {
+  visibility: visible;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+  opacity: 1;
+}
+
+/* Base styles for the tooltip's directional arrow */
+.tooltip:before,
+[data-tooltip]:before {
+  z-index: 1001;
+  border: 6px solid transparent;
+  background: transparent;
+  content: "";
+}
+
+/* Base styles for the tooltip's content area */
+.tooltip:after,
+[data-tooltip]:after {
+  z-index: 1000;
+  padding: 8px;
+  width: 160px;
+  background-color: #000;
+  background-color: hsla(0, 0%, 20%, 0.9);
+  color: #fff;
+  content: attr(data-tooltip);
+  font-size: 14px;
+  line-height: 1.2;
+}
+
+/* Directions */
+
+/* Top (default) */
+[data-tooltip]:before,
+[data-tooltip]:after,
+.tooltip:before,
+.tooltip:after,
+.tooltip-top:before,
+.tooltip-top:after {
+  bottom: 100%;
+  left: 50%;
+}
+
+[data-tooltip]:before,
+.tooltip:before,
+.tooltip-top:before {
+  margin-left: -6px;
+  margin-bottom: -12px;
+  border-top-color: #000;
+  border-top-color: hsla(0, 0%, 20%, 0.9);
+}
+
+/* Horizontally align top/bottom tooltips */
+[data-tooltip]:after,
+.tooltip:after,
+.tooltip-top:after {
+  margin-left: -80px;
+}
+
+[data-tooltip]:hover:before,
+[data-tooltip]:hover:after,
+[data-tooltip]:focus:before,
+[data-tooltip]:focus:after,
+.tooltip:hover:before,
+.tooltip:hover:after,
+.tooltip:focus:before,
+.tooltip:focus:after,
+.tooltip-top:hover:before,
+.tooltip-top:hover:after,
+.tooltip-top:focus:before,
+.tooltip-top:focus:after {
+  -webkit-transform: translateY(-12px);
+  -moz-transform:    translateY(-12px);
+  transform:         translateY(-12px);
+}
+
+/* Left */
+.tooltip-left:before,
+.tooltip-left:after {
+  right: 100%;
+  bottom: 50%;
+  left: auto;
+}
+
+.tooltip-left:before {
+  margin-left: 0;
+  margin-right: -12px;
+  margin-bottom: 0;
+  border-top-color: transparent;
+  border-left-color: #000;
+  border-left-color: hsla(0, 0%, 20%, 0.9);
+}
+
+.tooltip-left:hover:before,
+.tooltip-left:hover:after,
+.tooltip-left:focus:before,
+.tooltip-left:focus:after {
+  -webkit-transform: translateX(-12px);
+  -moz-transform:    translateX(-12px);
+  transform:         translateX(-12px);
+}
+
+/* Bottom */
+.tooltip-bottom:before,
+.tooltip-bottom:after {
+  top: 100%;
+  bottom: auto;
+  left: 50%;
+}
+
+.tooltip-bottom:before {
+  margin-top: -12px;
+  margin-bottom: 0;
+  border-top-color: transparent;
+  border-bottom-color: #000;
+  border-bottom-color: hsla(0, 0%, 20%, 0.9);
+}
+
+.tooltip-bottom:hover:before,
+.tooltip-bottom:hover:after,
+.tooltip-bottom:focus:before,
+.tooltip-bottom:focus:after {
+  -webkit-transform: translateY(12px);
+  -moz-transform:    translateY(12px);
+  transform:         translateY(12px);
+}
+
+/* Right */
+.tooltip-right:before,
+.tooltip-right:after {
+  bottom: 50%;
+  left: 100%;
+}
+
+.tooltip-right:before {
+  margin-bottom: 0;
+  margin-left: -12px;
+  border-top-color: transparent;
+  border-right-color: #000;
+  border-right-color: hsla(0, 0%, 20%, 0.9);
+}
+
+.tooltip-right:hover:before,
+.tooltip-right:hover:after,
+.tooltip-right:focus:before,
+.tooltip-right:focus:after {
+  -webkit-transform: translateX(12px);
+  -moz-transform:    translateX(12px);
+  transform:         translateX(12px);
+}
+
+/* Move directional arrows down a bit for left/right tooltips */
+.tooltip-left:before,
+.tooltip-right:before {
+  top: 3px;
+}
+
+/* Vertically center tooltip content for left/right tooltips */
+.tooltip-left:after,
+.tooltip-right:after {
+  margin-left: 0;
+  margin-bottom: -16px;
+}
+
+/************************************************\
+    Misc. Go Pro buttons etc..
+\************************************************/
+
+#wpnetbase a.button {
+  vertical-align: baseline;
+}
+
+#wpnetbase iframe {
+  vertical-align: middle;
+}
+
+#wpnetbase a.gopro {
+  border-bottom-color: #3D3D3D;
+  border-radius: 3px;
+  box-shadow: none;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  float: none;
+  margin: 6px 10px;
+  padding: 6px 16px 6px 35px;
+  position: relative;
+  text-decoration: none;
+  transition: all 0.2s linear 0s;
+  background: url("icons/tie.png") no-repeat scroll 5px 5px #40B6AD;
+}
+
+/************************************************\
+ Updates and Help page
+\************************************************/
+
+#wpnetbase.asl_updates_help {
+  font-family: 'PT Sans', Verdana, Tahoma, sans-serif;
+}
+
+#wpnetbase.asl_updates_help .wpnetbase-box {
+  width: 1024px;
+  line-height: 1.5em;
+}
+
+#wpnetbase.asl_updates_help .item {
+  text-align: left;
+  padding: 0 0 8px;
+  margin: 0 0 15px 0;
+}
+
+#wpnetbase.asl_updates_help .item:last-child {
+  margin: 0;
+}
+
+#wpnetbase.asl_updates_help pre {
+  white-space: pre-line;
+}
+
+#wpnetbase.asl_updates_help h3 {
+  font-family: 'PT Sans', Verdana, Tahoma, sans-serif;
+  margin: 0 0 1em 0;
+  font-weight: 700;
+  color: #494949;
+}
+
+#wpnetbase.asl_updates_help dd {
+  margin: 0px 10px 24px 0px;
+}
+#wpnetbase.asl_updates_help dt {
+  margin: 10px 0px 0px 0px;
+}
+
+#wpnetbase.asl_updates_help ul {
+  list-style: inherit;
+  padding: 0 0 0 40px;
+}
+
+#wpnetbase.asl_updates_help li {
+  margin: 10px 0px 0px 0px;
+}

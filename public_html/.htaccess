@@ -1,0 +1,4 @@
+ RewriteEngine On
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^(.*)$ http://dragonmartguide.com/index.php
+ErrorDocument 404 /http://dragonmartguide.com/index.php

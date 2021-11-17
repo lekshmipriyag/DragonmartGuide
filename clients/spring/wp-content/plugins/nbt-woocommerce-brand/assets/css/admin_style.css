@@ -1,0 +1,15 @@
+.wp-list-table .manage-column.column-slug{
+    width: 15%;
+}
+.wp-list-table .manage-column.column-status{
+    width: 7%;
+}
+.wp-list-table .manage-column.column-count{
+    width: 5%;
+}
+.wp-list-table .manage-column.column-featured{
+    width: 8%;
+}
+.wp-list-table .manage-column.column-url{
+    width: 15%;
+}

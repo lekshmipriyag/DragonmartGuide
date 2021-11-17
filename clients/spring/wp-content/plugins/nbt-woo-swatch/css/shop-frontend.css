@@ -1,0 +1,18 @@
+.shopswatchinput {
+    margin-bottom:5px;
+    margin-top:5px;
+}
+
+.nbtws_shopswatchlabel {
+    cursor:pointer;
+    background-size:contain;
+    background-repeat:no-repeat;
+    display:inline-block;
+    -webkit-transition: all 100ms ease-in;
+       -moz-transition: all 100ms ease-in;
+            transition: all 100ms ease-in;
+    border: solid 2px white;
+    outline: solid 1px #9C9999;
+    outline-style:dotted;
+    line-height: 1.0000;
+}

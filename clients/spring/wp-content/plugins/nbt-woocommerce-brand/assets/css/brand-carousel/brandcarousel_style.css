@@ -1,0 +1,109 @@
+/**
+ * NetbaseTeam Woocommerce Brands
+ * Copyright 2016 NetbaseTeam
+ * Licensed GPLv2 or later
+ */
+
+.nbt-wc-brand-swiper-carousel .nbt-wc-brand-swiper-carousel .swiper-wrapper {
+    padding: 0 auto;
+    margin: 0 auto;
+    list-style: none;
+}
+
+.swiper-slide {
+    text-align: center;
+    background: #fff;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+.nbt-brand-swiper-nav{
+    position: relative;
+    margin-top: 8px;
+}
+
+ .nbt-brand-swiper-pagination{
+    text-align: center;
+    padding-top: 10px;
+}
+.nbt-brand-swiper-pagination span{
+    padding: 5px;
+    margin-right: 5px;
+}
+
+.nbt-wc-brand-swiper-carousel  .swiper-slide .brand-slide-item{
+    border: 1px solid #cccccc;
+    text-align: center;
+}
+.nbt-wc-brand-swiper-carousel  .swiper-slide .brand-slide-item a img{
+    margin: 0 auto;
+    width: auto!important;
+}
+.nbt-wc-brand-swiper-carousel  .swiper-slide .brand-slide-item .brand-name{
+    width: 100%;
+    padding: 5px 0px;
+    background: #f5f5f5;
+}
+.nbt-wc-brand-swiper-carousel  .swiper-slide .brand-slide-item .brand-name > a{
+    color: #666666;
+}
+
+
+.swiper-button-prev,
+.swiper-container-rtl .swiper-button-next {
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M0%2C22L22%2C0l2.1%2C2.1L4.2%2C22l19.9%2C19.9L22%2C44L0%2C22L0%2C22L0%2C22z'%20fill%3D'%23007aff'%2F%3E%3C%2Fsvg%3E");
+    left: 40% !important;
+    right: auto;
+}
+.swiper-button-next,
+.swiper-container-rtl .swiper-button-prev {
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M27%2C22L27%2C22L5%2C44l-2.1-2.1L22.8%2C22L2.9%2C2.1L5%2C0L27%2C22L27%2C22z'%20fill%3D'%23007aff'%2F%3E%3C%2Fsvg%3E");
+    right: 40% !important;
+    left: auto;
+}
+
+.nbt-brand-swiper-nav .swiper-button-next, .nbt-brand-swiper-nav .swiper-button-prev {
+    -moz-background-size: 13.5px 13.5px;
+    -webkit-background-size: 13.5px 13.5px;
+    background-size: 13.5px 13.5px;
+    width: 25px;
+    height: 25px;
+    padding: 5px;
+    border: 1px solid #202020;
+    margin: 0 0px;
+}
+.nbt-brand-swiper-nav +.nbt-brand-swiper-pagination{
+    margin-top: 30px;
+}
+.nbt-brand-swiper-pagination .swiper-pagination-bullet{
+    border: 1px solid #dddddd;
+}
+.nbt-brand-swiper-pagination .swiper-pagination-bullet-active{
+    background: #ffffff;
+}
+
+.nbt-brand-swiper-nav .swiper-button-next{
+     background-image:url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M27%2C22L27%2C22L5%2C44l-2.1-2.1L22.8%2C22L2.9%2C2.1L5%2C0L27%2C22L27%2C22z'%20fill%3D'%23202020'%2F%3E%3C%2Fsvg%3E")
+}
+.nbt-brand-swiper-nav .swiper-button-prev {
+    background-image:url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M0%2C22L22%2C0l2.1%2C2.1L4.2%2C22l19.9%2C19.9L22%2C44L0%2C22L0%2C22L0%2C22z'%20fill%3D'%23202020'%2F%3E%3C%2Fsvg%3E")
+}
+.swiper-button-prev, .swiper-button-next {
+    -moz-background-size: 13.5px 13.5px;
+    -webkit-background-size: 13.5px 13.5px;
+    background-size: 13.5px 13.5px;
+    width: 13.5px;
+    height: 13.5px;
+    padding: 5px;
+    border: 2px solid #202020;
+    margin: 0 5px;
+}

@@ -1,0 +1,644 @@
+# WordPress Blank Pot
+# Copyright (C) 2014 ...
+# This file is distributed under the GNU General Public License v2 or later.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Nbt "
+"Woocommerce Brands "
+"v1.0.0\n"
+"POT-Creation-Date: "
+"2016-11-28 10:07+0700\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Your "
+"Name <you@example.com>\n"
+"Language-Team: "
+"NetbaseTeam\n"
+"Report-Msgid-Bugs-To: "
+"Translator Name "
+"<translations@example."
+"com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/"
+"plain; charset=UTF-8\n"
+"Content-Transfer-"
+"Encoding: 8bit\n"
+"Plural-Forms: "
+"nplurals=2; plural=n != "
+"1;\n"
+"X-Textdomain-Support: "
+"yesX-Generator: Poedit "
+"1.6.4\n"
+"X-Poedit-SourceCharset: "
+"UTF-8\n"
+"X-Poedit-KeywordsList: "
+"__;_e;esc_html_e;"
+"esc_html_x:1,2c;"
+"esc_html__;esc_attr_e;"
+"esc_attr_x:1,2c;"
+"esc_attr__;_ex:1,2c;"
+"_nx:4c,1,2;"
+"_nx_noop:4c,1,2;_x:1,2c;"
+"_n:1,2;_n_noop:1,2;"
+"__ngettext:1,2;"
+"__ngettext_noop:1,2;_c,"
+"_nc:4c,1,2\n"
+"X-Poedit-Basepath: ..\n"
+"Language: en_US\n"
+"X-Generator: Poedit "
+"1.8.11\n"
+"X-Poedit-"
+"SearchPath-0: .\n"
+
+#: includes/nbt-woocommerce-brands-settings.php:37
+#: includes/nbt-woocommerce-brands-taxonomies.php:51
+#: includes/nbt-woocommerce-brands-taxonomies.php:53
+msgid "Brands"
+msgstr ""
+
+#: includes/nbt-woocommerce-brands-settings.php:70
+msgid "General Settings"
+msgstr ""
+
+#: includes/nbt-woocommerce-brands-settings.php:76
+msgid "Brand Name"
+msgstr ""
+
+#: includes/nbt-woocommerce-brands-settings.php:77
+msgid "Brand name."
+msgstr ""
+
+#: includes/nbt-woocommerce-brands-settings.php:86
+msgid "Brand Show On Page"
+msgstr ""
+
+#: includes/nbt-woocommerce-brands-settings.php:87
+msgid "Brand show on page."
+msgstr ""
+
+#: includes/nbt-woocommerce-brands-settings.php:92
+msgid ""
+"Both categories and "
+"product detail page"
+msgstr ""
+
+#: includes/nbt-woocommerce-brands-settings.php:93
+msgid "Categories page"
+msgstr ""
+
+#: includes/nbt-woocommerce-brands-settings.php:94
+msgid "Product detail page"
+msgstr ""
+
+#: includes/nbt-woocommerce-brands-settings.php:101
+msgid "Brand Default Image"
+msgstr ""
+
+#: includes/nbt-woocommerce-brands-settings.php:115
+msgid "Product Detail Page"
+msgstr ""
+
+#: includes/nbt-woocommerce-brands-settings.php:121
+#: includes/nbt-woocommerce-brands-settings.php:195
+msgid "Brand Type Show"
+msgstr ""
+
+#: includes/nbt-woocommerce-brands-settings.php:122
+#: includes/nbt-woocommerce-brands-settings.php:196
+msgid "Brand name"
+msgstr ""
+
+#: includes/nbt-woocommerce-brands-settings.php:130
+#: includes/nbt-woocommerce-brands-settings.php:204
+#: includes/nbt-woocommerce-brands-settings.php:266
+msgid "Brand image"
+msgstr ""
+
+#: includes/nbt-woocommerce-brands-settings.php:139
+#: includes/nbt-woocommerce-brands-settings.php:275
+msgid "Brand description"
+msgstr ""
+
+#: includes/nbt-woocommerce-brands-settings.php:148
+#: includes/nbt-woocommerce-brands-settings.php:213
+msgid "Position Display"
+msgstr ""
+
+#: includes/nbt-woocommerce-brands-settings.php:149
+msgid ""
+"Position display brand "
+"in single product."
+msgstr ""
+
+#: includes/nbt-woocommerce-brands-settings.php:154
+#: includes/nbt-woocommerce-brands-settings.php:223
+msgid "Above product name"
+msgstr ""
+
+#: includes/nbt-woocommerce-brands-settings.php:155
+#: includes/nbt-woocommerce-brands-settings.php:224
+msgid "Below product name"
+msgstr ""
+
+#: includes/nbt-woocommerce-brands-settings.php:156
+#: includes/nbt-woocommerce-brands-settings.php:222
+msgid "Below price"
+msgstr ""
+
+#: includes/nbt-woocommerce-brands-settings.php:157
+msgid ""
+"Above short description"
+msgstr ""
+
+#: includes/nbt-woocommerce-brands-settings.php:158
+msgid ""
+"Below short description"
+msgstr ""
+
+#: includes/nbt-woocommerce-brands-settings.php:159
+#: includes/nbt-woocommerce-brands-settings.php:219
+msgid ""
+"Above \"Add to cart\""
+msgstr ""
+
+#: includes/nbt-woocommerce-brands-settings.php:160
+#: includes/nbt-woocommerce-brands-settings.php:220
+msgid ""
+"Below \"Add to cart\""
+msgstr ""
+
+#: includes/nbt-woocommerce-brands-settings.php:161
+msgid ""
+"Above categories list"
+msgstr ""
+
+#: includes/nbt-woocommerce-brands-settings.php:162
+msgid ""
+"Below categories list"
+msgstr ""
+
+#: includes/nbt-woocommerce-brands-settings.php:169
+#: includes/nbt-woocommerce-brands-settings.php:231
+#: includes/nbt-woocommerce-brands-settings.php:284
+msgid "Brand Images Size"
+msgstr ""
+
+#: includes/nbt-woocommerce-brands-settings.php:170
+#: includes/nbt-woocommerce-brands-settings.php:232
+#: includes/nbt-woocommerce-brands-settings.php:285
+msgid ""
+"This size is usually "
+"used in brand single"
+msgstr ""
+
+#: includes/nbt-woocommerce-brands-settings.php:189
+msgid "Category Page"
+msgstr ""
+
+#: includes/nbt-woocommerce-brands-settings.php:214
+msgid ""
+"Position display brand "
+"in cateogry page."
+msgstr ""
+
+#: includes/nbt-woocommerce-brands-settings.php:221
+msgid "Above price"
+msgstr ""
+
+#: includes/nbt-woocommerce-brands-settings.php:251
+msgid "Brand Page"
+msgstr ""
+
+#: includes/nbt-woocommerce-brands-settings.php:257
+msgid "Brand type show"
+msgstr ""
+
+#: includes/nbt-woocommerce-brands-settings.php:258
+msgid "Brand banner"
+msgstr ""
+
+#: includes/nbt-woocommerce-brands-settings.php:325
+#: includes/nbt-woocommerce-brands-settings.php:354
+#: includes/nbt-woocommerce-brands-settings.php:383
+msgid "×"
+msgstr ""
+
+#: includes/nbt-woocommerce-brands-settings.php:327
+#: includes/nbt-woocommerce-brands-settings.php:356
+#: includes/nbt-woocommerce-brands-settings.php:385
+msgid "px"
+msgstr ""
+
+#: includes/nbt-woocommerce-brands-settings.php:328
+#: includes/nbt-woocommerce-brands-settings.php:357
+#: includes/nbt-woocommerce-brands-settings.php:386
+msgid "Hard Crop?"
+msgstr ""
+
+#: includes/nbt-woocommerce-brands-settings.php:408
+#: includes/nbt-woocommerce-brands-taxonomies.php:109
+#: includes/nbt-woocommerce-brands-taxonomies.php:308
+msgid "Upload/Add image"
+msgstr ""
+
+#: includes/nbt-woocommerce-brands-settings.php:409
+#: includes/nbt-woocommerce-brands-taxonomies.php:110
+#: includes/nbt-woocommerce-brands-taxonomies.php:309
+msgid "Remove image"
+msgstr ""
+
+#: includes/nbt-woocommerce-brands-settings.php:441
+#: includes/nbt-woocommerce-brands-taxonomies.php:134
+#: includes/nbt-woocommerce-brands-taxonomies.php:211
+#: includes/nbt-woocommerce-brands-taxonomies.php:333
+#: includes/nbt-woocommerce-brands-taxonomies.php:395
+msgid "Choose an image"
+msgstr ""
+
+#: includes/nbt-woocommerce-brands-settings.php:443
+#: includes/nbt-woocommerce-brands-taxonomies.php:136
+#: includes/nbt-woocommerce-brands-taxonomies.php:213
+#: includes/nbt-woocommerce-brands-taxonomies.php:335
+#: includes/nbt-woocommerce-brands-taxonomies.php:397
+msgid "Use image"
+msgstr ""
+
+#: includes/nbt-woocommerce-brands-taxonomies.php:54
+msgid "Brand"
+msgstr ""
+
+#: includes/nbt-woocommerce-brands-taxonomies.php:55
+msgctxt "Admin menu name"
+msgid "Brands"
+msgstr ""
+
+#: includes/nbt-woocommerce-brands-taxonomies.php:56
+msgid "Search Brands"
+msgstr ""
+
+#: includes/nbt-woocommerce-brands-taxonomies.php:57
+msgid "All Brands"
+msgstr ""
+
+#: includes/nbt-woocommerce-brands-taxonomies.php:58
+msgid "Parent Brand"
+msgstr ""
+
+#: includes/nbt-woocommerce-brands-taxonomies.php:59
+msgid "Parent Brand:"
+msgstr ""
+
+#: includes/nbt-woocommerce-brands-taxonomies.php:60
+msgid "Edit Brand"
+msgstr ""
+
+#: includes/nbt-woocommerce-brands-taxonomies.php:61
+msgid "Update Brand"
+msgstr ""
+
+#: includes/nbt-woocommerce-brands-taxonomies.php:62
+msgid "Add New Brand"
+msgstr ""
+
+#: includes/nbt-woocommerce-brands-taxonomies.php:63
+msgid "New Brand Name"
+msgstr ""
+
+#: includes/nbt-woocommerce-brands-taxonomies.php:64
+msgid "No Brand found"
+msgstr ""
+
+#: includes/nbt-woocommerce-brands-taxonomies.php:76
+msgctxt "slug"
+msgid "brand"
+msgstr ""
+
+#: includes/nbt-woocommerce-brands-taxonomies.php:97
+msgid "Custom URL"
+msgstr ""
+
+#: includes/nbt-woocommerce-brands-taxonomies.php:101
+#: includes/nbt-woocommerce-brands-taxonomies.php:297
+#: includes/nbt-woocommerce-brands-taxonomies.php:496
+msgid "Featured"
+msgstr ""
+
+#: includes/nbt-woocommerce-brands-taxonomies.php:105
+#: includes/nbt-woocommerce-brands-taxonomies.php:303
+#: includes/nbt-woocommerce-brands-taxonomies.php:529
+msgid "Thumbnail"
+msgstr ""
+
+#: includes/nbt-woocommerce-brands-taxonomies.php:182
+#: includes/nbt-woocommerce-brands-taxonomies.php:365
+#: includes/nbt-woocommerce-brands-taxonomies.php:489
+#: includes/nbt-woocommerce-brands-taxonomies.php:562
+msgid "Banner"
+msgstr ""
+
+#: includes/nbt-woocommerce-brands-taxonomies.php:186
+#: includes/nbt-woocommerce-brands-taxonomies.php:370
+msgid "Upload/Add banner"
+msgstr ""
+
+#: includes/nbt-woocommerce-brands-taxonomies.php:187
+#: includes/nbt-woocommerce-brands-taxonomies.php:371
+msgid "Remove banner"
+msgstr ""
+
+#: includes/nbt-woocommerce-brands-taxonomies.php:259
+#: includes/nbt-woocommerce-brands-taxonomies.php:429
+#: includes/nbt-woocommerce-brands-taxonomies.php:500
+msgid "Publish"
+msgstr ""
+
+#: includes/nbt-woocommerce-brands-taxonomies.php:293
+#: includes/nbt-woocommerce-brands-taxonomies.php:498
+msgid "Url"
+msgstr ""
+
+#: includes/nbt-woocommerce-brands-taxonomies.php:485
+msgid "Image"
+msgstr ""
+
+#: includes/nbt-woocommerce-brands-taxonomies.php:487
+#: template/widgets/nbt-wc-brands-az-filter-widget.php:75
+#: template/widgets/nbt-wc-brands-carousel-widget.php:133
+#: template/widgets/nbt-wc-brands-filter-select-widget.php:80
+#: template/widgets/nbt-wc-brands-list-widget.php:69
+#: template/widgets/nbt-wc-brands-thumbnail-widget.php:120
+msgid "Name"
+msgstr ""
+
+#: includes/nbt-woocommerce-brands-taxonomies.php:494
+msgid "Slug"
+msgstr ""
+
+#: template/widgets/nbt-wc-brands-az-filter-widget.php:24
+msgid ""
+"Display woocommerce "
+"brands a-z filter widget"
+msgstr ""
+
+#: template/widgets/nbt-wc-brands-az-filter-widget.php:50
+#: template/widgets/nbt-wc-brands-carousel-widget.php:69
+#: template/widgets/nbt-wc-brands-list-widget.php:48
+#: template/widgets/nbt-wc-brands-thumbnail-widget.php:58
+msgid "Widget Title"
+msgstr ""
+
+#: template/widgets/nbt-wc-brands-az-filter-widget.php:54
+msgid "Texl all"
+msgstr ""
+
+#: template/widgets/nbt-wc-brands-az-filter-widget.php:59
+#: template/widgets/nbt-wc-brands-filter-select-widget.php:68
+#: template/widgets/nbt-wc-brands-list-widget.php:53
+msgid ""
+"Display product count"
+msgstr ""
+
+#: template/widgets/nbt-wc-brands-az-filter-widget.php:63
+#: template/widgets/nbt-wc-brands-carousel-widget.php:98
+#: template/widgets/nbt-wc-brands-filter-select-widget.php:72
+#: template/widgets/nbt-wc-brands-list-widget.php:57
+#: template/widgets/nbt-wc-brands-thumbnail-widget.php:71
+msgid "Hiden empty brands"
+msgstr ""
+
+#: template/widgets/nbt-wc-brands-az-filter-widget.php:67
+#: template/widgets/nbt-wc-brands-carousel-widget.php:74
+#: template/widgets/nbt-wc-brands-filter-select-widget.php:64
+#: template/widgets/nbt-wc-brands-list-widget.php:61
+#: template/widgets/nbt-wc-brands-thumbnail-widget.php:79
+msgid ""
+"Only display brand "
+"featured"
+msgstr ""
+
+#: template/widgets/nbt-wc-brands-az-filter-widget.php:70
+#: template/widgets/nbt-wc-brands-az-filter-widget.php:79
+#: template/widgets/nbt-wc-brands-carousel-widget.php:128
+#: template/widgets/nbt-wc-brands-carousel-widget.php:137
+#: template/widgets/nbt-wc-brands-filter-select-widget.php:75
+#: template/widgets/nbt-wc-brands-filter-select-widget.php:84
+#: template/widgets/nbt-wc-brands-list-widget.php:64
+#: template/widgets/nbt-wc-brands-list-widget.php:73
+#: template/widgets/nbt-wc-brands-thumbnail-widget.php:115
+#: template/widgets/nbt-wc-brands-thumbnail-widget.php:124
+msgid "Order by"
+msgstr ""
+
+#: template/widgets/nbt-wc-brands-az-filter-widget.php:72
+#: template/widgets/nbt-wc-brands-az-filter-widget.php:81
+#: template/widgets/nbt-wc-brands-carousel-widget.php:130
+#: template/widgets/nbt-wc-brands-carousel-widget.php:139
+#: template/widgets/nbt-wc-brands-filter-select-widget.php:77
+#: template/widgets/nbt-wc-brands-filter-select-widget.php:86
+#: template/widgets/nbt-wc-brands-list-widget.php:66
+#: template/widgets/nbt-wc-brands-list-widget.php:75
+#: template/widgets/nbt-wc-brands-thumbnail-widget.php:117
+#: template/widgets/nbt-wc-brands-thumbnail-widget.php:126
+msgid "No order"
+msgstr ""
+
+#: template/widgets/nbt-wc-brands-az-filter-widget.php:73
+#: template/widgets/nbt-wc-brands-carousel-widget.php:131
+#: template/widgets/nbt-wc-brands-filter-select-widget.php:78
+#: template/widgets/nbt-wc-brands-list-widget.php:67
+#: template/widgets/nbt-wc-brands-thumbnail-widget.php:118
+msgid "ID"
+msgstr ""
+
+#: template/widgets/nbt-wc-brands-az-filter-widget.php:74
+#: template/widgets/nbt-wc-brands-carousel-widget.php:132
+#: template/widgets/nbt-wc-brands-filter-select-widget.php:79
+#: template/widgets/nbt-wc-brands-list-widget.php:68
+#: template/widgets/nbt-wc-brands-thumbnail-widget.php:119
+msgid "Title"
+msgstr ""
+
+#: template/widgets/nbt-wc-brands-az-filter-widget.php:82
+#: template/widgets/nbt-wc-brands-carousel-widget.php:140
+#: template/widgets/nbt-wc-brands-filter-select-widget.php:87
+#: template/widgets/nbt-wc-brands-list-widget.php:76
+#: template/widgets/nbt-wc-brands-thumbnail-widget.php:127
+msgid "ASC"
+msgstr ""
+
+#: template/widgets/nbt-wc-brands-az-filter-widget.php:83
+#: template/widgets/nbt-wc-brands-carousel-widget.php:141
+#: template/widgets/nbt-wc-brands-filter-select-widget.php:88
+#: template/widgets/nbt-wc-brands-list-widget.php:77
+#: template/widgets/nbt-wc-brands-thumbnail-widget.php:128
+msgid "DESC"
+msgstr ""
+
+#: template/widgets/nbt-wc-brands-carousel-widget.php:24
+msgid ""
+"Display woocommerce "
+"brands carousel widget"
+msgstr ""
+
+#: template/widgets/nbt-wc-brands-carousel-widget.php:77
+msgid "Item in slider "
+msgstr ""
+
+#: template/widgets/nbt-wc-brands-carousel-widget.php:81
+msgid ""
+"Limit (Accepts 0 (all) "
+"or any positive number)"
+msgstr ""
+
+#: template/widgets/nbt-wc-brands-carousel-widget.php:86
+msgid "Name show"
+msgstr ""
+
+#: template/widgets/nbt-wc-brands-carousel-widget.php:90
+msgid "Image show"
+msgstr ""
+
+#: template/widgets/nbt-wc-brands-carousel-widget.php:94
+msgid "Count product show"
+msgstr ""
+
+#: template/widgets/nbt-wc-brands-carousel-widget.php:102
+msgid "Auto play"
+msgstr ""
+
+#: template/widgets/nbt-wc-brands-carousel-widget.php:105
+msgid ""
+"Autoplay interval "
+"timeout."
+msgstr ""
+
+#: template/widgets/nbt-wc-brands-carousel-widget.php:110
+msgid ""
+"Display prev/next button"
+msgstr ""
+
+#: template/widgets/nbt-wc-brands-carousel-widget.php:113
+msgid ""
+"Margin-right(px) on "
+"brand item"
+msgstr ""
+
+#: template/widgets/nbt-wc-brands-carousel-widget.php:117
+msgid ""
+"Display Vertical/"
+"Horizontal type"
+msgstr ""
+
+#: template/widgets/nbt-wc-brands-carousel-widget.php:119
+msgid "Vertical"
+msgstr ""
+
+#: template/widgets/nbt-wc-brands-carousel-widget.php:120
+msgid "Horizontal "
+msgstr ""
+
+#: template/widgets/nbt-wc-brands-carousel-widget.php:124
+msgid ""
+"Height carousel (only "
+"accept number and "
+"vertical style)"
+msgstr ""
+
+#: template/widgets/nbt-wc-brands-filter-select-widget.php:24
+msgid ""
+"Display woocommerce "
+"brands filter select "
+"widget"
+msgstr ""
+
+#: template/widgets/nbt-wc-brands-filter-select-widget.php:51
+msgid "Widget title"
+msgstr ""
+
+#: template/widgets/nbt-wc-brands-filter-select-widget.php:55
+msgid "Enter placeholder"
+msgstr ""
+
+#: template/widgets/nbt-wc-brands-filter-select-widget.php:59
+msgid ""
+"Width ( Only enter "
+"number )px"
+msgstr ""
+
+#: template/widgets/nbt-wc-brands-list-widget.php:24
+msgid ""
+"Display woocommerce "
+"brands list widget"
+msgstr ""
+
+#: template/widgets/nbt-wc-brands-thumbnail-widget.php:24
+msgid ""
+"Display woocommerce "
+"brands thumbnail widget"
+msgstr ""
+
+#: template/widgets/nbt-wc-brands-thumbnail-widget.php:63
+msgid "Show name"
+msgstr ""
+
+#: template/widgets/nbt-wc-brands-thumbnail-widget.php:67
+msgid "Show tooltip"
+msgstr ""
+
+#: template/widgets/nbt-wc-brands-thumbnail-widget.php:75
+msgid "Show brand count"
+msgstr ""
+
+#: template/widgets/nbt-wc-brands-thumbnail-widget.php:82
+msgid ""
+"Select brand show in "
+"devices desktops "
+msgstr ""
+
+#: template/widgets/nbt-wc-brands-thumbnail-widget.php:84
+#: template/widgets/nbt-wc-brands-thumbnail-widget.php:95
+#: template/widgets/nbt-wc-brands-thumbnail-widget.php:106
+msgid "1"
+msgstr ""
+
+#: template/widgets/nbt-wc-brands-thumbnail-widget.php:85
+#: template/widgets/nbt-wc-brands-thumbnail-widget.php:96
+#: template/widgets/nbt-wc-brands-thumbnail-widget.php:107
+msgid "2"
+msgstr ""
+
+#: template/widgets/nbt-wc-brands-thumbnail-widget.php:86
+#: template/widgets/nbt-wc-brands-thumbnail-widget.php:97
+#: template/widgets/nbt-wc-brands-thumbnail-widget.php:108
+msgid "3"
+msgstr ""
+
+#: template/widgets/nbt-wc-brands-thumbnail-widget.php:87
+#: template/widgets/nbt-wc-brands-thumbnail-widget.php:98
+#: template/widgets/nbt-wc-brands-thumbnail-widget.php:109
+msgid "4"
+msgstr ""
+
+#: template/widgets/nbt-wc-brands-thumbnail-widget.php:88
+#: template/widgets/nbt-wc-brands-thumbnail-widget.php:99
+#: template/widgets/nbt-wc-brands-thumbnail-widget.php:110
+msgid "5"
+msgstr ""
+
+#: template/widgets/nbt-wc-brands-thumbnail-widget.php:89
+#: template/widgets/nbt-wc-brands-thumbnail-widget.php:100
+#: template/widgets/nbt-wc-brands-thumbnail-widget.php:111
+msgid "6"
+msgstr ""
+
+#: template/widgets/nbt-wc-brands-thumbnail-widget.php:93
+msgid ""
+"Select brand show in "
+"devices tablets "
+msgstr ""
+
+#: template/widgets/nbt-wc-brands-thumbnail-widget.php:104
+msgid ""
+"Select brand show in "
+"devices phone"
+msgstr ""
